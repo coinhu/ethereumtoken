@@ -1,0 +1,377 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 526385152 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2718), pid=24680, tid=24766
+#
+# JRE version:  (11.0.3+12) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.3+12-b304.56, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P" (or dumping to /media/root/recover/AAAADATA/AAAGIT/go-ethereum/trie/core.24680)
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: org.jetbrains.git4idea.http.GitAskPassApp Username for 'https://github.com': 
+
+Host: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, 8 cores, 31G, Ubuntu 18.04.3 LTS
+Time: Wed Jan 15 02:50:07 2020 PST elapsed time: 18 seconds (0d 0h 0m 18s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fb02c011800):  JavaThread "Unknown thread" [_thread_in_vm, id=24766, stack(0x00007fb035704000,0x00007fb035805000)]
+
+Stack: [0x00007fb035704000,0x00007fb035805000],  sp=0x00007fb035803220,  free space=1020k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xd96b9a]  VMError::report_and_die(int, char const*, char const*, __va_list_tag*, Thread*, unsigned char*, void*, void*, char const*, int, unsigned long)+0x18a
+V  [libjvm.so+0xd97a33]  VMError::report_and_die(Thread*, char const*, int, unsigned long, VMErrorType, char const*, __va_list_tag*)+0x43
+V  [libjvm.so+0x698cb8]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*, ...)+0xe8
+V  [libjvm.so+0xb9da59]  os::pd_commit_memory_or_exit(char*, unsigned long, unsigned long, bool, char const*)+0xe9
+V  [libjvm.so+0xb9558d]  os::commit_memory_or_exit(char*, unsigned long, unsigned long, bool, char const*)+0x1d
+V  [libjvm.so+0x7a04b1]  G1PageBasedVirtualSpace::commit_preferred_pages(unsigned long, unsigned long)+0x71
+V  [libjvm.so+0x7a0605]  G1PageBasedVirtualSpace::commit_internal(unsigned long, unsigned long)+0x85
+V  [libjvm.so+0x7a07fa]  G1PageBasedVirtualSpace::commit(unsigned long, unsigned long)+0x10a
+V  [libjvm.so+0x7a80b6]  G1RegionsLargerThanCommitSizeMapper::commit_regions(unsigned int, unsigned long, WorkGang*)+0x46
+V  [libjvm.so+0x8108d8]  HeapRegionManager::commit_regions(unsigned int, unsigned long, WorkGang*)+0x88
+V  [libjvm.so+0x811434]  HeapRegionManager::make_regions_available(unsigned int, unsigned int, WorkGang*)+0x34
+V  [libjvm.so+0x811939]  HeapRegionManager::expand_by(unsigned int, WorkGang*)+0x79
+V  [libjvm.so+0x764100]  G1CollectedHeap::expand(unsigned long, WorkGang*, double*)+0xc0
+V  [libjvm.so+0x7647f5]  G1CollectedHeap::initialize()+0x695
+V  [libjvm.so+0xd5a311]  Universe::initialize_heap()+0x41
+V  [libjvm.so+0xd5a5c1]  universe_init()+0x41
+V  [libjvm.so+0x82721f]  init_globals()+0x5f
+V  [libjvm.so+0xd37c2c]  Threads::create_vm(JavaVMInitArgs*, bool*)+0x3dc
+V  [libjvm.so+0x8cea9c]  JNI_CreateJavaVM+0x5c
+C  [libjli.so+0x4814]  JavaMain+0x84
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x0000000001453050, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x00007fb02c028000 GCTaskThread "GC Thread#0" [stack: 0x00007fb031717000,0x00007fb031817000] [id=24887]
+  0x00007fb02c062800 ConcurrentGCThread "G1 Main Marker" [stack: 0x00007fb030d0a000,0x00007fb030e0a000] [id=24888]
+  0x00007fb02c064800 ConcurrentGCThread "G1 Conc#0" [stack: 0x00007fb030c08000,0x00007fb030d08000] [id=24889]
+
+[error occurred during error reporting (printing all threads), id 0xb, SIGSEGV (0xb) at pc=0x00007fb033d3e305]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x00007fb02c00e590] Heap_lock - owner thread: 0x00007fb02c011800
+
+Heap address: 0x000000060a800000, size: 8024 MB, Compressed Oops mode: Non-zero based: 0x000000060a800000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:54 6490                               /media/root/ntfs/GoLand-2019.2.2/jbr/bin/java
+00601000-00602000 r--p 00001000 08:54 6490                               /media/root/ntfs/GoLand-2019.2.2/jbr/bin/java
+00602000-00603000 rw-p 00002000 08:54 6490                               /media/root/ntfs/GoLand-2019.2.2/jbr/bin/java
+0143b000-0145c000 rw-p 00000000 00:00 0                                  [heap]
+629e00000-800000000 ---p 00000000 00:00 0 
+7faff4000000-7faff4021000 rw-p 00000000 00:00 0 
+7faff4021000-7faff8000000 ---p 00000000 00:00 0 
+7faffc000000-7faffc021000 rw-p 00000000 00:00 0 
+7faffc021000-7fb000000000 ---p 00000000 00:00 0 
+7fb0005e8000-7fb0025e8000 rw-p 00000000 00:00 0 
+7fb0025e8000-7fb014000000 ---p 00000000 00:00 0 
+7fb014000000-7fb014021000 rw-p 00000000 00:00 0 
+7fb014021000-7fb018000000 ---p 00000000 00:00 0 
+7fb0181b8000-7fb019164000 ---p 00000000 00:00 0 
+7fb019164000-7fb0193d4000 rwxp 00000000 00:00 0 
+7fb0193d4000-7fb0196f5000 ---p 00000000 00:00 0 
+7fb0196f5000-7fb019965000 rwxp 00000000 00:00 0 
+7fb019965000-7fb020c2c000 ---p 00000000 00:00 0 
+7fb020c2c000-7fb020e9c000 rwxp 00000000 00:00 0 
+7fb020e9c000-7fb028164000 ---p 00000000 00:00 0 
+7fb028164000-7fb02c000000 r--s 00000000 08:54 926119                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/modules
+7fb02c000000-7fb02c092000 rw-p 00000000 00:00 0 
+7fb02c092000-7fb030000000 ---p 00000000 00:00 0 
+7fb03007a000-7fb030c06000 rw-p 00000000 00:00 0 
+7fb030c06000-7fb030c07000 ---p 00000000 00:00 0 
+7fb030c07000-7fb030d08000 rw-p 00000000 00:00 0 
+7fb030d08000-7fb030d09000 ---p 00000000 00:00 0 
+7fb030d09000-7fb031715000 rw-p 00000000 00:00 0 
+7fb031715000-7fb031716000 ---p 00000000 00:00 0 
+7fb031716000-7fb03181c000 rw-p 00000000 00:00 0 
+7fb03181c000-7fb031902000 ---p 00000000 00:00 0 
+7fb031902000-7fb031907000 rw-p 00000000 00:00 0 
+7fb031907000-7fb0319ed000 ---p 00000000 00:00 0 
+7fb0319ed000-7fb0319f2000 r-xp 00000000 08:54 926098                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjimage.so
+7fb0319f2000-7fb031bf2000 ---p 00005000 08:54 926098                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjimage.so
+7fb031bf2000-7fb031bf3000 r--p 00005000 08:54 926098                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjimage.so
+7fb031bf3000-7fb031bf4000 rw-p 00006000 08:54 926098                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjimage.so
+7fb031bf4000-7fb031bfb000 r-xp 00000000 08:54 926118                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libzip.so
+7fb031bfb000-7fb031dfa000 ---p 00007000 08:54 926118                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libzip.so
+7fb031dfa000-7fb031dfb000 r--p 00006000 08:54 926118                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libzip.so
+7fb031dfb000-7fb031dfc000 rw-p 00007000 08:54 926118                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libzip.so
+7fb031dfc000-7fb031e07000 r-xp 00000000 08:62 3674913                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fb031e07000-7fb032006000 ---p 0000b000 08:62 3674913                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fb032006000-7fb032007000 r--p 0000a000 08:62 3674913                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fb032007000-7fb032008000 rw-p 0000b000 08:62 3674913                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7fb032008000-7fb03200e000 rw-p 00000000 00:00 0 
+7fb03200e000-7fb032025000 r-xp 00000000 08:62 3674910                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fb032025000-7fb032224000 ---p 00017000 08:62 3674910                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fb032224000-7fb032225000 r--p 00016000 08:62 3674910                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fb032225000-7fb032226000 rw-p 00017000 08:62 3674910                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7fb032226000-7fb032228000 rw-p 00000000 00:00 0 
+7fb032228000-7fb032233000 r-xp 00000000 08:62 3674915                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fb032233000-7fb032432000 ---p 0000b000 08:62 3674915                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fb032432000-7fb032433000 r--p 0000a000 08:62 3674915                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fb032433000-7fb032434000 rw-p 0000b000 08:62 3674915                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7fb032434000-7fb03243c000 r-xp 00000000 08:62 3674911                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fb03243c000-7fb03263c000 ---p 00008000 08:62 3674911                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fb03263c000-7fb03263d000 r--p 00008000 08:62 3674911                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fb03263d000-7fb03263e000 rw-p 00009000 08:62 3674911                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7fb03263e000-7fb032667000 r-xp 00000000 08:54 926086                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjava.so
+7fb032667000-7fb032866000 ---p 00029000 08:54 926086                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjava.so
+7fb032866000-7fb032867000 r--p 00028000 08:54 926086                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjava.so
+7fb032867000-7fb032869000 rw-p 00029000 08:54 926086                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libjava.so
+7fb032869000-7fb032876000 r-xp 00000000 08:54 926117                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libverify.so
+7fb032876000-7fb032a75000 ---p 0000d000 08:54 926117                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libverify.so
+7fb032a75000-7fb032a77000 r--p 0000c000 08:54 926117                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libverify.so
+7fb032a77000-7fb032a78000 rw-p 0000e000 08:54 926117                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/libverify.so
+7fb032a78000-7fb032a7f000 r-xp 00000000 08:62 3674935                    /lib/x86_64-linux-gnu/librt-2.27.so
+7fb032a7f000-7fb032c7e000 ---p 00007000 08:62 3674935                    /lib/x86_64-linux-gnu/librt-2.27.so
+7fb032c7e000-7fb032c7f000 r--p 00006000 08:62 3674935                    /lib/x86_64-linux-gnu/librt-2.27.so
+7fb032c7f000-7fb032c80000 rw-p 00007000 08:62 3674935                    /lib/x86_64-linux-gnu/librt-2.27.so
+7fb032c80000-7fb032c97000 r-xp 00000000 08:62 3676382                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb032c97000-7fb032e96000 ---p 00017000 08:62 3676382                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb032e96000-7fb032e97000 r--p 00016000 08:62 3676382                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb032e97000-7fb032e98000 rw-p 00017000 08:62 3676382                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7fb032e98000-7fb033035000 r-xp 00000000 08:62 3674899                    /lib/x86_64-linux-gnu/libm-2.27.so
+7fb033035000-7fb033234000 ---p 0019d000 08:62 3674899                    /lib/x86_64-linux-gnu/libm-2.27.so
+7fb033234000-7fb033235000 r--p 0019c000 08:62 3674899                    /lib/x86_64-linux-gnu/libm-2.27.so
+7fb033235000-7fb033236000 rw-p 0019d000 08:62 3674899                    /lib/x86_64-linux-gnu/libm-2.27.so
+7fb033236000-7fb0333af000 r-xp 00000000 08:62 5243107                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fb0333af000-7fb0335af000 ---p 00179000 08:62 5243107                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fb0335af000-7fb0335b9000 r--p 00179000 08:62 5243107                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fb0335b9000-7fb0335bb000 rw-p 00183000 08:62 5243107                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7fb0335bb000-7fb0335bf000 rw-p 00000000 00:00 0 
+7fb0335bf000-7fb034667000 r-xp 00000000 08:54 926130                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/server/libjvm.so
+7fb034667000-7fb034867000 ---p 010a8000 08:54 926130                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/server/libjvm.so
+7fb034867000-7fb034935000 r--p 010a8000 08:54 926130                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/server/libjvm.so
+7fb034935000-7fb03496f000 rw-p 01176000 08:54 926130                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/server/libjvm.so
+7fb03496f000-7fb0349c8000 rw-p 00000000 00:00 0 
+7fb0349c8000-7fb034baf000 r-xp 00000000 08:62 3674866                    /lib/x86_64-linux-gnu/libc-2.27.so
+7fb034baf000-7fb034daf000 ---p 001e7000 08:62 3674866                    /lib/x86_64-linux-gnu/libc-2.27.so
+7fb034daf000-7fb034db3000 r--p 001e7000 08:62 3674866                    /lib/x86_64-linux-gnu/libc-2.27.so
+7fb034db3000-7fb034db5000 rw-p 001eb000 08:62 3674866                    /lib/x86_64-linux-gnu/libc-2.27.so
+7fb034db5000-7fb034db9000 rw-p 00000000 00:00 0 
+7fb034db9000-7fb034dbc000 r-xp 00000000 08:62 3674877                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7fb034dbc000-7fb034fbb000 ---p 00003000 08:62 3674877                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7fb034fbb000-7fb034fbc000 r--p 00002000 08:62 3674877                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7fb034fbc000-7fb034fbd000 rw-p 00003000 08:62 3674877                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7fb034fbd000-7fb034fcc000 r-xp 00000000 08:54 926064                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/jli/libjli.so
+7fb034fcc000-7fb0351cb000 ---p 0000f000 08:54 926064                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/jli/libjli.so
+7fb0351cb000-7fb0351cc000 r--p 0000e000 08:54 926064                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/jli/libjli.so
+7fb0351cc000-7fb0351cd000 rw-p 0000f000 08:54 926064                     /media/root/ntfs/GoLand-2019.2.2/jbr/lib/jli/libjli.so
+7fb0351cd000-7fb0351e7000 r-xp 00000000 08:62 3674931                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fb0351e7000-7fb0353e6000 ---p 0001a000 08:62 3674931                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fb0353e6000-7fb0353e7000 r--p 00019000 08:62 3674931                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fb0353e7000-7fb0353e8000 rw-p 0001a000 08:62 3674931                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7fb0353e8000-7fb0353ec000 rw-p 00000000 00:00 0 
+7fb0353ec000-7fb035408000 r-xp 00000000 08:62 3674951                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fb035408000-7fb035607000 ---p 0001c000 08:62 3674951                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fb035607000-7fb035608000 r--p 0001b000 08:62 3674951                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fb035608000-7fb035609000 rw-p 0001c000 08:62 3674951                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7fb035609000-7fb035630000 r-xp 00000000 08:62 3674854                    /lib/x86_64-linux-gnu/ld-2.27.so
+7fb0356c5000-7fb035704000 rw-p 00000000 00:00 0 
+7fb035704000-7fb035708000 ---p 00000000 00:00 0 
+7fb035708000-7fb035807000 rw-p 00000000 00:00 0 
+7fb035818000-7fb03581d000 rw-p 00000000 00:00 0 
+7fb03581d000-7fb035824000 ---p 00000000 00:00 0 
+7fb035824000-7fb03582c000 rw-s 00000000 08:62 4596933                    /tmp/hsperfdata_root/24680
+7fb03582c000-7fb03582d000 ---p 00000000 00:00 0 
+7fb03582d000-7fb03582e000 r--p 00000000 00:00 0 
+7fb03582e000-7fb035830000 rw-p 00000000 00:00 0 
+7fb035830000-7fb035831000 r--p 00027000 08:62 3674854                    /lib/x86_64-linux-gnu/ld-2.27.so
+7fb035831000-7fb035832000 rw-p 00028000 08:62 3674854                    /lib/x86_64-linux-gnu/ld-2.27.so
+7fb035832000-7fb035833000 rw-p 00000000 00:00 0 
+7fff84e59000-7fff84e7b000 rw-p 00000000 00:00 0                          [stack]
+7fff84ec8000-7fff84ecb000 r--p 00000000 00:00 0                          [vvar]
+7fff84ecb000-7fff84ecd000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+
+VM Arguments:
+java_command: org.jetbrains.git4idea.http.GitAskPassApp Username for 'https://github.com': 
+java_class_path (initial): /media/root/ntfs/GoLand-2019.2.2/plugins/git4idea/lib/git4idea-rt.jar:/media/root/ntfs/GoLand-2019.2.2/lib/xmlrpc-2.0.1.jar:/media/root/ntfs/GoLand-2019.2.2/lib/commons-codec-1.13.jar:/media/root/ntfs/GoLand-2019.2.2/lib/util.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 8                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 2097152                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 526385152                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 8413773824                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 2097152                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5835340                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122911450                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122911450                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=/usr/lib/git-core:/root/.local/bin:/root/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.dotnet/tools
+LD_LIBRARY_PATH=/lib:
+SHELL=/bin/bash
+DISPLAY=:0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0xd97a90], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0xd97a90], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0xd97a90], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0xb99ae0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0xb99ae0], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0xd97a90], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR2: [libjvm.so+0xb99980], sa_mask[0]=00100000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGINT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGQUIT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=18.04
+DISTRIB_CODENAME=bionic
+DISTRIB_DESCRIPTION="Ubuntu 18.04.3 LTS"
+uname:Linux 4.15.0-74-generic #84-Ubuntu SMP Thu Dec 19 08:06:28 UTC 2019 x86_64
+libc:glibc 2.27 NPTL 2.27 
+rlimit: STACK 8192k, CORE 0k, NPROC 124619, NOFILE 4096, AS infinity, DATA infinity, FSIZE infinity
+load average:96.86 235.01 182.49
+
+/proc/meminfo:
+MemTotal:       32862700 kB
+MemFree:          227796 kB
+MemAvailable:      90436 kB
+Buffers:            4476 kB
+Cached:           400460 kB
+SwapCached:         3408 kB
+Active:         29764732 kB
+Inactive:        1915784 kB
+Active(anon):   29730756 kB
+Inactive(anon):  1848204 kB
+Active(file):      33976 kB
+Inactive(file):    67580 kB
+Unevictable:         588 kB
+Mlocked:             588 kB
+SwapTotal:       8388604 kB
+SwapFree:              0 kB
+Dirty:                48 kB
+Writeback:             0 kB
+AnonPages:      31275056 kB
+Mapped:           237804 kB
+Shmem:            302540 kB
+Slab:             384364 kB
+SReclaimable:     153624 kB
+SUnreclaim:       230740 kB
+KernelStack:       45776 kB
+PageTables:       260252 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    24819952 kB
+Committed_AS:   60115972 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:      2048 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:     1649344 kB
+DirectMap2M:    30779392 kB
+DirectMap1G:     1048576 kB
+
+
+/proc/sys/kernel/threads-max (system-wide limit on the number of threads):
+249238
+
+
+/proc/sys/vm/max_map_count (maximum number of memory map areas a process may have):
+65530
+
+
+/proc/sys/kernel/pid_max (system-wide limit on number of process identifiers):
+32768
+
+
+
+container (cgroup) information:
+container_type: cgroupv1
+cpu_cpuset_cpus: 0-7
+cpu_memory_nodes: 0
+active_processor_count: 8
+cpu_quota: -1
+cpu_period: 100000
+cpu_shares: -1
+memory_limit_in_bytes: -1
+memory_and_swap_limit_in_bytes: -2
+memory_soft_limit_in_bytes: -1
+memory_usage_in_bytes: 32703643648
+memory_max_usage_in_bytes: 32757170176
+
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, rtm, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+CPU Model and flags from /proc/cpuinfo:
+model name	: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d
+
+Memory: 4k page, physical 32862700k(250280k free), swap 8388604k(0k free)
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.3+12-b304.56) for linux-amd64 JRE (11.0.3+12-b304.56), built on Sep  3 2019 08:12:35 by "" with gcc 4.8.5 20150623 (Red Hat 4.8.5-28)
+
+END.

@@ -1,0 +1,1 @@
+{"uuid":"b77c1f19-c560-4716-912f-8d2b5544491f","parent":null,"pid":26626,"argv":["/root/.nvm/versions/node/v10.15.3/bin/node","/root/node_modules/.bin/tap"],"execArgv":[],"cwd":"/root","time":1564353706018,"ppid":26484,"root":"3a5417db-8841-4751-b6e5-c06b9b45e479","coverageFilename":"/root/.nyc_output/b77c1f19-c560-4716-912f-8d2b5544491f.json","files":[]}

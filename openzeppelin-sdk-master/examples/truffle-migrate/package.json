@@ -1,0 +1,20 @@
+{
+  "name": "example-truffle-migrate",
+  "version": "2.7.0-rc.0",
+  "description": "OpenZeppelin SDK example: using truffle migrations",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "check": "truffle exec index.js --network local",
+    "test": "truffle test"
+  },
+  "author": "santiago@openzeppelin.com",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/upgrades": "2.7.0-rc.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "2.7.0-rc.0",
+    "truffle": "^5.0.5"
+  }
+}

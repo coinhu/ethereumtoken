@@ -1,0 +1,13 @@
+[child18:27622]   start: 0x7f89790b4000 size:4KB  name: anon(PROT_READ | PROT_WRITE)
+[child18:27622]   start: 0x7f89790b3000 size:4KB  name: anon(PROT_READ)
+[child18:27622]   start: 0x7f89790b2000 size:4KB  name: anon(PROT_WRITE)
+[child18:27622]   start: 0x7f8978fb2000 size:1MB  name: anon(PROT_READ | PROT_WRITE)
+[child18:27622]   start: 0x7f89774f5000 size:1MB  name: anon(PROT_READ)
+[child18:27622]   start: 0x7f89773f5000 size:1MB  name: anon(PROT_WRITE)
+[child18:27622]   start: 0x7f89771f5000 size:2MB  name: anon(PROT_READ | PROT_WRITE)
+[child18:27622]   start: 0x7f8976ff5000 size:2MB  name: anon(PROT_READ)
+[child18:27622]   start: 0x7f8976df5000 size:2MB  name: anon(PROT_WRITE)
+[child18:27622]   start: 0x7f8978fb1000 size:4KB  name: anon(PROT_READ | PROT_WRITE)
+[child18:27622]   start: 0x7f8978fb0000 size:4KB  name: anon(PROT_READ)
+[child18:27622]   start: 0x7f8978faf000 size:4KB  name: anon(PROT_WRITE)
+[child18:27622] [1] chroot(filename="/proc/16006/task/16009/net/tcp/") [child18:27622]  Dumped trace to /boot/trace.txt

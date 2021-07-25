@@ -1,0 +1,16 @@
+
+# This file specifies server-script configuration for this project
+# If you cannot see secrets.cson in Atom, click on the treeview and press the letter i
+
+server:
+  location: '/media/root/9b3907bf-f44e-11e9-91e8-1831bf6b1fd24/AAAADATA/AAAGIT/go-ethereum/'
+  projectRoot: '/media/root/9b3907bf-f44e-11e9-91e8-1831bf6b1fd24/'
+  # login info is kept in secrets.cson
+
+options:
+  syncChangedFiles: yes
+  scriptOnRun:  'build.sh'
+  scriptOnSave: 'yes'
+  useGitignore: yes
+  logToConsole: yes
+  

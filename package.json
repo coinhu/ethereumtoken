@@ -1,0 +1,18 @@
+{
+  "name": "go-ethereum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/asicminer2009/go-ethereum.git",
+  "author": "asicminer001 <deaunapaul@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@sentry/browser": "^5.11.1",
+    "appjs": "0.0.20",
+    "appjs-linux-x64": "0.0.19",
+    "build": "^0.1.4",
+    "cake": "^0.1.1",
+    "react": "^16.12.0",
+    "sentry": "^0.1.2",
+    "yarn": "^1.21.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "options": {
+    "turndown": {
+      "bulletListMarker": "*",
+      "codeBlockStyle": "indented",
+      "emDelimiter": "_",
+      "fence": "```",
+      "headingStyle": "setext",
+      "hr": "* * *",
+      "linkReferenceStyle": "full",
+      "linkStyle": "inlined",
+      "strongDelimiter": "**"
+    }
+  }
+}

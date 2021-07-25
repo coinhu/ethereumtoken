@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.web3j.abi"},{"l":"org.web3j.abi.datatypes"},{"l":"org.web3j.abi.datatypes.generated"}]

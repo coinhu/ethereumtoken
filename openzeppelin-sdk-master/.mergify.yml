@@ -1,0 +1,27 @@
+pull_request_rules:
+- name: merge
+  actions:
+    merge:
+      method: squash
+      rebase_fallback: merge
+  conditions:
+  - base=master
+  - label=status:ready-to-merge
+  - label!=no-mergify
+  - '#approved-reviews-by>=1'
+  - '#changes-requested-reviews-by=0'
+  - 'status-success="ci/circleci: test-cli"'
+  - 'status-success="ci/circleci: test-lib"'
+  - 'status-success="ci/circleci: example-create-instances-from-solidity"'
+  - 'status-success="ci/circleci: example-upgrades-library"'
+  - 'status-success="ci/circleci: example-cli-create2"'
+  - 'status-success="ci/circleci: example-first-project"'
+  - 'status-success="ci/circleci: integration-cli-geth"'
+  - 'status-success="ci/circleci: integration-cli-hdwallet"'
+  - 'status-success="ci/circleci: integration-cli-kits"'
+- name: delete head branch after merge
+  conditions:
+  - merged
+  - head~=^(fix|feature|docs|design|refactor|test|rename|dx)/
+  actions:
+    delete_head_branch: {}

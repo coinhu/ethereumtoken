@@ -1,0 +1,21 @@
+{
+  "name": "example-first-project",
+  "version": "2.7.0-rc.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "author": "santiago@openzeppelin.com",
+  "license": "MIT",
+  "scripts": {
+    "test": "scripts/test-ci.sh"
+  },
+  "dependencies": {
+    "@openzeppelin/contract-loader": "0.6.0",
+    "web3": "1.2.2"
+  },
+  "devDependencies": {
+    "@openzeppelin/cli": "2.7.0-rc.0",
+    "@openzeppelin/upgrades": "2.7.0-rc.0",
+    "ganache-cli": "^6.4.3"
+  }
+}

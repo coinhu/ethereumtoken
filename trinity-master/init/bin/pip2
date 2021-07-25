@@ -1,0 +1,8 @@
+#!/media/root/9b3907bf-f44e-11e9-91e8-1831bf6b1fd25/AAAADATA/AAAGIT/go-ethereum/trinity-master/init/bin/python
+# -*- coding: utf-8 -*-
+import re
+import sys
+from pip._internal.cli.main import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

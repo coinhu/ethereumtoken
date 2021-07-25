@@ -1,0 +1,825 @@
+[main]   start: 0x7f89790b4000 size:4KB  name: anon(PROT_READ | PROT_WRITE)
+[main]   start: 0x7f89790b3000 size:4KB  name: anon(PROT_READ)
+[main]   start: 0x7f89790b2000 size:4KB  name: anon(PROT_WRITE)
+[main]   start: 0x7f8978fb2000 size:1MB  name: anon(PROT_READ | PROT_WRITE)
+[main]   start: 0x7f89774f5000 size:1MB  name: anon(PROT_READ)
+[main]   start: 0x7f89773f5000 size:1MB  name: anon(PROT_WRITE)
+[main]   start: 0x7f89771f5000 size:2MB  name: anon(PROT_READ | PROT_WRITE)
+[main]   start: 0x7f8976ff5000 size:2MB  name: anon(PROT_READ)
+[main]   start: 0x7f8976df5000 size:2MB  name: anon(PROT_WRITE)
+[main]   start: 0x7f8978fb1000 size:4KB  name: anon(PROT_READ | PROT_WRITE)
+[main]   start: 0x7f8978fb0000 size:4KB  name: anon(PROT_READ)
+[main]   start: 0x7f8978faf000 size:4KB  name: anon(PROT_WRITE)
+[main]  Parsed 37 char devices, 22 block devices, 21 misc devices.
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  futex: 0 owner:0
+[main]  Reserved/initialized 40 futexes.
+[main]  sysv_shm: id:12779549 size:28672 flags:7b0 ptr:(nil)
+[main]  sysv_shm: id:12812323 size:16384 flags:17b0 ptr:(nil)
+[main]  sysv_shm: id:12845092 size:40960 flags:54001fb0 ptr:(nil)
+[main]  sysv_shm: id:12877861 size:32768 flags:78001fb0 ptr:(nil)
+[main]  bpf map fd:37 type:array
+[main]  bpf map fd:38 type:prog_array
+[main]  bpf map fd:39 type:perf event array
+[main]  bpf map fd:40 type:percpu hash
+[main]  bpf map fd:41 type:stack trace
+[main]  bpf map fd:42 type:cgroup array
+[main]  bpf map fd:43 type:LRU hash
+[main]  bpf map fd:44 type:LRU percpu hash
+[main]  drmfd:46
+[main]  fd[46] = drm
+[main]  drmfd:47
+[main]  fd[47] = drm
+[main]  drmfd:48
+[main]  fd[48] = drm
+[main]  epoll fd:45 used create1?:0 flags:0
+[main]  epoll fd:49 used create1?:0 flags:0
+[main]  epoll fd:50 used create1?:1 flags:80000
+[main]  epoll fd:51 used create1?:1 flags:80000
+[main]  epoll fd:152 used create1?:0 flags:0
+[main]  epoll fd:153 used create1?:0 flags:0
+[main]  epoll fd:154 used create1?:0 flags:0
+[main]  epoll fd:155 used create1?:1 flags:80000
+[main]  epoll fd:156 used create1?:0 flags:0
+[main]  epoll fd:157 used create1?:0 flags:0
+[main]  eventfd fd:158 count:0 flags:0
+[main]  eventfd fd:159 count:333926300 flags:800
+[main]  eventfd fd:160 count:0 flags:801
+[main]  eventfd fd:161 count:34 flags:80000
+[main]  eventfd fd:162 count:262471269 flags:80800
+[main]  eventfd fd:163 count:-10 flags:80001
+[main]  eventfd fd:164 count:111 flags:80801
+[main]  eventfd fd:165 count:-5 flags:1
+[main]  fanotify fd:166 flags:2 eventflags:81802
+[main]  fanotify fd:167 flags:20 eventflags:141801
+[main]  fanotify fd:168 flags:10 eventflags:40002
+[main]  fanotify fd:169 flags:4 eventflags:181400
+[main]  fanotify fd:170 flags:10 eventflags:1
+[main]  fanotify fd:171 flags:20 eventflags:101002
+[main]  fanotify fd:172 flags:2 eventflags:2
+[main]  fanotify fd:173 flags:1 eventflags:81c00
+[main]  fanotify fd:174 flags:8 eventflags:181001
+[main]  fanotify fd:175 flags:4 eventflags:1c1400
+[main]  Generating file descriptors
+[main]  Added 176 filenames from /dev
+[main]  Added 441105 filenames from /proc
+[main]  Added 95467 filenames from /sys
+[main]  file fd:176 filename:/proc/17995/task/18005/fdinfo/121 flags:0 fopened:1 fcntl_flags:4000
+[main]  file fd:177 filename:/proc/4000/task/4003/net/udplite6 flags:0 fopened:1 fcntl_flags:46800
+[main]  file fd:178 filename:/proc/13650/task/13654/net/stat/rt_cache flags:0 fopened:1 fcntl_flags:400
+[main]  file fd:179 filename:/proc/16006/task/16012/sched flags:2 fopened:1 fcntl_flags:40400
+[main]  file fd:180 filename:/proc/19634/task/19645/net/rpc/nfs4.idtoname flags:0 fopened:1 fcntl_flags:4800
+[main]  file fd:181 filename:/sys/kernel/slab/proc_inode_cache/cgroup/proc_inode_cache(778:binfmt-support.service)/remote_node_defrag_ratio flags:402 fopened:0 fcntl_flags:0
+[main]   start: 0x40bf8000 size:4KB  name: /sys/kernel/slab/proc_inode_cache/cgroup/proc_inode_cache(778:binfmt-support.service)/remote_node_defrag_ratio
+[main]  file fd:182 filename:/proc/433/attr/sockcreate flags:203682 fopened:0 fcntl_flags:0
+[main]  file fd:183 filename:/proc/26008/task/26391/limits flags:0 fopened:1 fcntl_flags:46400
+[main]  file fd:184 filename:/proc/27168/task/27179/fdinfo/2 flags:0 fopened:1 fcntl_flags:800
+[main]  file fd:185 filename:/proc/42/net/xfrm_stat flags:0 fopened:1 fcntl_flags:40000
+[main]  file fd:186 filename:/proc/7316/task/7320/fdinfo/95 flags:325380 fopened:0 fcntl_flags:0
+[main]  file fd:187 filename:/proc/13650/task/13653/statm flags:200 fopened:0 fcntl_flags:0
+[main]  file fd:188 filename:/proc/19312/net/netstat flags:121800 fopened:0 fcntl_flags:0
+[main]  file fd:189 filename:/proc/9707/task/9734/smaps_rollup flags:282280 fopened:0 fcntl_flags:0
+[main]  file fd:190 filename:/proc/7336/task/7336/fdinfo/171 flags:0 fopened:1 fcntl_flags:46c00
+[main]  file fd:191 filename:/proc/11738/task/11739/sessionid flags:0 fopened:1 fcntl_flags:46000
+[main]  file fd:192 filename:/proc/26339/task/26473/net/connector flags:0 fopened:1 fcntl_flags:42c00
+[main]  file fd:193 filename:/proc/3856/task/3856/net/unix flags:0 fopened:1 fcntl_flags:42400
+[main]  file fd:194 filename:/sys/kernel/slab/:A-0000064/cgroup/pid(50:kmod-static-nodes.service)/min_partial flags:200002 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:A-0000064/cgroup/pid(50:kmod-static-nodes.service)/min_partial
+[main]  file fd:195 filename:/sys/kernel/slab/:A-0000192/cgroup/cred_jar(193:systemd-journald.service)/aliases flags:0 fopened:1 fcntl_flags:2800
+[main]   start: 0x41dd2000 size:4KB  name: /sys/kernel/slab/:A-0000192/cgroup/cred_jar(193:systemd-journald.service)/aliases
+[main]  file fd:196 filename:/proc/255/task/255/net/rpc/nfsd.export flags:0 fopened:1 fcntl_flags:42800
+[main]  file fd:197 filename:/proc/3066/task/3068/net/stat/ndisc_cache flags:0 fopened:1 fcntl_flags:400
+[main]  file fd:198 filename:/proc/10074/task/10077/fdinfo/51 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:199 filename:/proc/2051/task/2090/net/ipv6_route flags:0 fopened:1 fcntl_flags:2400
+[main]  file fd:200 filename:/proc/3765/task/3765/net/rpc/nfsd.export/channel flags:2 fopened:1 fcntl_flags:44c00
+[main]  file fd:201 filename:/proc/5379/task/5380/net/rpc/nfs4.nametoid/channel flags:2 fopened:1 fcntl_flags:2000
+[main]  file fd:202 filename:/proc/27168/net/rpc/auth.rpcsec.init/channel flags:2002 fopened:0 fcntl_flags:0
+[main]  file fd:203 filename:/proc/24550/task/24560/projid_map flags:201802 fopened:0 fcntl_flags:0
+[main]  file fd:204 filename:/proc/9795/task/9811/fdinfo/14 flags:0 fopened:1 fcntl_flags:6400
+[main]  file fd:205 filename:/proc/40/task/40/sessionid flags:0 fopened:1 fcntl_flags:44800
+[main]  file fd:206 filename:/proc/25138/task/25138/maps flags:0 fopened:1 fcntl_flags:2400
+[main]  file fd:207 filename:/proc/13708/task/13727/fdinfo/20 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:208 filename:/sys/kernel/slab/:0008192/cgroup/kmalloc-8192(219:ureadahead.service)/object_size flags:3c1300 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:0008192/cgroup/kmalloc-8192(219:ureadahead.service)/object_size
+[main]  file fd:209 filename:/proc/3855/task/3911/net/connector flags:80600 fopened:0 fcntl_flags:0
+[main]  file fd:210 filename:/proc/15955/task/15967/net/rpc/auth.unix.ip/flush flags:2582 fopened:0 fcntl_flags:0
+[main]  file fd:211 filename:/sys/devices/system/machinecheck/power/runtime_active_kids flags:0 fopened:1 fcntl_flags:c00
+[main]   start: 0x404ea000 size:4KB  name: /sys/devices/system/machinecheck/power/runtime_active_kids
+[main]  file fd:212 filename:/proc/433/task/433/net/connector flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:213 filename:/proc/960/task/960/net/ptype flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:214 filename:/proc/5020/task/5020/net/dev flags:0 fopened:1 fcntl_flags:800
+[main]  file fd:215 filename:/proc/5933/task/5934/attr/fscreate flags:363c02 fopened:0 fcntl_flags:0
+[main]  file fd:216 filename:/sys/kernel/slab/:0000192/cgroup/kmalloc-192(2426:packagekit.service)/cache_dma flags:0 fopened:0 fcntl_flags:0
+[main]   start: 0x7f8978fac000 size:4KB  name: /sys/kernel/slab/:0000192/cgroup/kmalloc-192(2426:packagekit.service)/cache_dma
+[main]  file fd:217 filename:/proc/5964/task/5970/fdinfo/89 flags:80c00 fopened:0 fcntl_flags:0
+[main]  file fd:218 filename:/proc/24510/task/24516/net/rpc/nfsd.fh flags:0 fopened:1 fcntl_flags:4000
+[main]  file fd:219 filename:/proc/3952/net/tcp flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:220 filename:/proc/5378/task/5395/attr/fscreate flags:2 fopened:1 fcntl_flags:0
+[main]  file fd:221 filename:/proc/590/task/590/net/stat/rt_cache flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:222 filename:/proc/1643/net/rpc/nfsd flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:223 filename:/proc/12017/autogroup flags:2 fopened:1 fcntl_flags:400
+[main]  file fd:224 filename:/proc/5018/task/5047/fdinfo/127 flags:2e6600 fopened:0 fcntl_flags:0
+[main]  file fd:225 filename:/proc/3078/task/3078/attr/sockcreate flags:2 fopened:0 fcntl_flags:0
+[main]  file fd:226 filename:/sys/kernel/slab/inode_cache/cgroup/inode_cache(219:ureadahead.service)/trace flags:2 fopened:1 fcntl_flags:2000
+[main]   start: 0x409d8000 size:4KB  name: /sys/kernel/slab/inode_cache/cgroup/inode_cache(219:ureadahead.service)/trace
+[main]  file fd:227 filename:/sys/kernel/slab/:aA-0000192/cgroup/dentry(778:binfmt-support.service)/total_objects flags:0 fopened:1 fcntl_flags:44c00
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:aA-0000192/cgroup/dentry(778:binfmt-support.service)/total_objects
+[main]  file fd:228 filename:/proc/4249/task/4249/net/rpc/auth.rpcsec.init flags:80080 fopened:0 fcntl_flags:0
+[main]  file fd:229 filename:/proc/26682/task/26692/cmdline flags:141000 fopened:0 fcntl_flags:0
+[main]  file fd:230 filename:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0d/power/runtime_active_kids flags:0 fopened:1 fcntl_flags:800
+[main]   start: (nil) size:4KB  name: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/device:0d/power/runtime_active_kids
+[main]  file fd:231 filename:/proc/23930/task/23936/net/rpc/auth.unix.gid/flush flags:2 fopened:1 fcntl_flags:800
+[main]  file fd:232 filename:/sys/devices/virtual/block/loop10/power/runtime_active_time flags:3080 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: /sys/devices/virtual/block/loop10/power/runtime_active_time
+[main]  file fd:233 filename:/proc/9707/fdinfo/142 flags:0 fopened:1 fcntl_flags:46400
+[main]  file fd:234 filename:/proc/19634/task/19646/net/dev_mcast flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:235 filename:/sys/kernel/slab/:A-0000192/cgroup/cred_jar(622:snap-pycharm\x2dcommunity-172.mount)/destroy_by_rcu flags:240200 fopened:0 fcntl_flags:0
+[main]   start: 0x7f8978fab000 size:4KB  name: /sys/kernel/slab/:A-0000192/cgroup/cred_jar(622:snap-pycharm\x2dcommunity-172.mount)/destroy_by_rcu
+[main]  file fd:236 filename:/proc/5018/task/25778/net/rpc/nfs4.nametoid/channel flags:2 fopened:1 fcntl_flags:40000
+[main]  file fd:237 filename:/proc/24527/task/24664/fdinfo/54 flags:0 fopened:1 fcntl_flags:46400
+[main]  file fd:238 filename:/sys/firmware/efi/vars/ProfileName1-4b5b31ae-024a-412b-b2f4-5c70632605c7/guid flags:500 fopened:0 fcntl_flags:0
+[main]   start: 0x4001b000 size:4KB  name: /sys/firmware/efi/vars/ProfileName1-4b5b31ae-024a-412b-b2f4-5c70632605c7/guid
+[main]  file fd:239 filename:/proc/26682/task/26687/children flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:240 filename:/proc/4259/task/4259/gid_map flags:2 fopened:1 fcntl_flags:46000
+[main]  file fd:241 filename:/proc/3743/net/rpc/use-gss-proxy flags:2 fopened:0 fcntl_flags:0
+[main]  file fd:242 filename:/proc/9926/task/25358/fdinfo/599 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:243 filename:/proc/4011/task/4016/net/ip6_mr_vif flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:244 filename:/proc/3753/task/3754/net/dev flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:245 filename:/sys/kernel/slab/:0001024/cgroup/kmalloc-1024(713:console-setup.service)/trace flags:2 fopened:1 fcntl_flags:40000
+[main]   start: 0x7f8978faa000 size:4KB  name: /sys/kernel/slab/:0001024/cgroup/kmalloc-1024(713:console-setup.service)/trace
+[main]  file fd:246 filename:/proc/958/timers flags:0 fopened:1 fcntl_flags:44000
+[main]  file fd:247 filename:/proc/6110/task/6110/wchan flags:123000 fopened:0 fcntl_flags:0
+[main]  file fd:248 filename:/proc/23930/task/23942/fdinfo/75 flags:0 fopened:1 fcntl_flags:400
+[main]  file fd:249 filename:/sys/kernel/slab/:A-0000256/cgroup/filp(1194:systemd-update-utmp.service)/reclaim_account flags:2 fopened:1 fcntl_flags:6c00
+[main]   start: 0x7f8976600000 size:4KB  name: /sys/kernel/slab/:A-0000256/cgroup/filp(1194:systemd-update-utmp.service)/reclaim_account
+[main]  file fd:250 filename:/proc/9916/task/9916/fdinfo/31 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:251 filename:/proc/5379/task/5394/net/wireless flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:252 filename:/proc/20/task/20/net/rpc/auth.rpcsec.init flags:0 fopened:1 fcntl_flags:2800
+[main]  file fd:253 filename:/proc/15955/task/15960/fdinfo/23 flags:0 fopened:1 fcntl_flags:6400
+[main]  file fd:254 filename:/proc/3952/task/4179/net/rpc/nfs4.idtoname/flush flags:2 fopened:1 fcntl_flags:40800
+[main]  file fd:255 filename:/proc/5018/task/6039/net/arp flags:0 fopened:1 fcntl_flags:46400
+[main]  file fd:256 filename:/proc/4230/task/4239/mem flags:2202 fopened:0 fcntl_flags:0
+[main]  file fd:257 filename:/proc/13665/task/13683/net/rpc/auth.unix.ip flags:0 fopened:1 fcntl_flags:44800
+[main]  file fd:258 filename:/proc/9926/task/13942/fdinfo/154 flags:0 fopened:1 fcntl_flags:44400
+[main]  file fd:259 filename:/sys/kernel/slab/:A-0000208/cgroup/vm_area_struct(622:snap-pycharm\x2dcommunity-172.mount)/objects flags:0 fopened:1 fcntl_flags:46800
+[main]   start: 0x7f8978fa9000 size:4KB  name: /sys/kernel/slab/:A-0000208/cgroup/vm_area_struct(622:snap-pycharm\x2dcommunity-172.mount)/objects
+[main]  file fd:260 filename:/proc/17995/task/17999/net/rpc/nfs4.idtoname flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:261 filename:/proc/250/task/250/attr/current flags:2e7982 fopened:0 fcntl_flags:0
+[main]  file fd:262 filename:/proc/9752/task/9757/fdinfo/71 flags:0 fopened:1 fcntl_flags:46400
+[main]  file fd:263 filename:/proc/5379/task/5385/fdinfo/69 flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:264 filename:/proc/9985/task/9985/fdinfo/0 flags:161500 fopened:0 fcntl_flags:0
+[main]  file fd:265 filename:/proc/3998/task/3998/net/rpc/auth.rpcsec.context/channel flags:207302 fopened:0 fcntl_flags:0
+[main]  file fd:266 filename:/proc/3855/net/raw flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:267 filename:/proc/3799/attr/fscreate flags:2 fopened:1 fcntl_flags:46000
+[main]  file fd:268 filename:/proc/2447/task/2447/net/netfilter flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:269 filename:/sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/i2c-9/i2c-dev/i2c-9/name flags:0 fopened:1 fcntl_flags:46800
+[main]   start: 0x7f8978fa8000 size:4KB  name: /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/i2c-9/i2c-dev/i2c-9/name
+[main]  file fd:270 filename:/proc/5046/task/5054/fdinfo/95 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:271 filename:/proc/956/task/956/syscall flags:0 fopened:1 fcntl_flags:44400
+[main]  file fd:272 filename:/proc/13637/task/13643/limits flags:0 fopened:1 fcntl_flags:6000
+[main]  file fd:273 filename:/sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:04/power/runtime_suspended_time flags:3a1800 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: /sys/devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0F:04/power/runtime_suspended_time
+[main]  file fd:274 filename:/sys/kernel/slab/:a-0000256/cpu_partial flags:2 fopened:1 fcntl_flags:44400
+[main]   start: 0x7f89769db000 size:4KB  name: /sys/kernel/slab/:a-0000256/cpu_partial
+[main]  file fd:275 filename:/proc/42/task/42/fd flags:0 fopened:1 fcntl_flags:46000
+[main]  file fd:276 filename:/proc/5018/task/5056/fdinfo/107 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:277 filename:/proc/7348/task/7349/net/rpc/nfsd.export/flush flags:2 fopened:0 fcntl_flags:0
+[main]  file fd:278 filename:/sys/kernel/slab/:A-0000704/cgroup/files_cache(1480:gpu-manager.service)/min_partial flags:2 fopened:1 fcntl_flags:6000
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:A-0000704/cgroup/files_cache(1480:gpu-manager.service)/min_partial
+[main]  file fd:279 filename:/proc/23930/task/23936/fdinfo/222 flags:0 fopened:1 fcntl_flags:2c00
+[main]  file fd:280 filename:/proc/24527/task/24531/smaps_rollup flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:281 filename:/proc/11654/task/11665/fdinfo/556 flags:0 fopened:1 fcntl_flags:c00
+[main]  file fd:282 filename:/proc/3856/task/3856/net/rpc/nfs4.nametoid/channel flags:2 fopened:1 fcntl_flags:44c00
+[main]  file fd:283 filename:/proc/6965/task/6968/attr/apparmor/current flags:265b02 fopened:0 fcntl_flags:0
+[main]  file fd:284 filename:/proc/5378/task/5389/oom_score flags:800 fopened:0 fcntl_flags:0
+[main]  file fd:285 filename:/sys/devices/system/clocksource flags:0 fopened:1 fcntl_flags:42800
+[main]  file fd:286 filename:/proc/3986/task/4276/attr/display_lsm flags:2 fopened:1 fcntl_flags:2000
+[main]  file fd:287 filename:/proc/25511/task/25919/net/unix flags:0 fopened:1 fcntl_flags:40800
+[main]  file fd:288 filename:/sys/kernel/slab/sock_inode_cache/cgroup/sock_inode_cache(2324:upower.service)/store_user flags:2 fopened:0 fcntl_flags:0
+[main]   start: 0x409f5000 size:4KB  name: /sys/kernel/slab/sock_inode_cache/cgroup/sock_inode_cache(2324:upower.service)/store_user
+[main]  file fd:289 filename:/proc/7329/task/7334/net/icmp6 flags:0 fopened:1 fcntl_flags:46800
+[main]  file fd:290 filename:/proc/11654/task/11659/attr/prev flags:0 fopened:1 fcntl_flags:c00
+[main]  file fd:291 filename:/proc/9707/task/9721/fdinfo/90 flags:2a4f80 fopened:0 fcntl_flags:0
+[main]  file fd:292 filename:/proc/7386/task/7386/numa_maps flags:0 fopened:1 fcntl_flags:44800
+[main]  file fd:293 filename:/proc/9736/task/9779/fdinfo/56 flags:0 fopened:1 fcntl_flags:44000
+[main]  file fd:294 filename:/proc/10675/task/10675/sessionid flags:0 fopened:1 fcntl_flags:4000
+[main]  file fd:295 filename:/proc/10299/task/10306/net/rpc/nfs4.idtoname/content flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:296 filename:/proc/27155/task/27163/pagemap flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:297 filename:/proc/10091/task/10105/net/rpc/auth.unix.gid flags:0 fopened:1 fcntl_flags:40400
+[main]  file fd:298 filename:/proc/3947/task/3968/personality flags:0 fopened:1 fcntl_flags:4c00
+[main]  file fd:299 filename:/proc/11654/task/11661/fdinfo/326 flags:0 fopened:1 fcntl_flags:44400
+[main]  file fd:300 filename:/proc/13665/task/25710/net/igmp6 flags:0 fopened:1 fcntl_flags:40c00
+[main]  file fd:301 filename:/proc/23941/fdinfo/179 flags:0 fopened:1 fcntl_flags:6800
+[main]  file fd:302 filename:/proc/27155/task/27164/net/netfilter/nf_log flags:0 fopened:1 fcntl_flags:4400
+[main]  file fd:303 filename:/proc/5018/task/5031/fdinfo/1 flags:0 fopened:1 fcntl_flags:40c00
+[main]  file fd:304 filename:/proc/13709/task/13716/cgroup flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:305 filename:/proc/5061/task/5072/net/sockstat6 flags:0 fopened:1 fcntl_flags:4400
+[main]  file fd:306 filename:/proc/7336/task/7338/net/rpc/nfsd.fh/flush flags:2 fopened:1 fcntl_flags:0
+[main]  file fd:307 filename:/proc/16006/task/16014/fdinfo/25 flags:200000 fopened:0 fcntl_flags:0
+[main]  file fd:308 filename:/sys/kernel/slab/:A-0000208/cgroup/vm_area_struct(180:dev-mqueue.mount)/objects flags:0 fopened:1 fcntl_flags:6000
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:A-0000208/cgroup/vm_area_struct(180:dev-mqueue.mount)/objects
+[main]  file fd:309 filename:/proc/10/task/10/net/dev flags:0 fopened:1 fcntl_flags:40000
+[main]  file fd:310 filename:/proc/27118/task/27118 flags:0 fopened:1 fcntl_flags:4c00
+[main]  file fd:311 filename:/proc/3887/task/3888/fdinfo flags:0 fopened:1 fcntl_flags:40800
+[main]  file fd:312 filename:/proc/9985/task/9990/fdinfo/31 flags:0 fopened:1 fcntl_flags:44000
+[main]  file fd:313 filename:/proc/26475/task/26590/fdinfo/19 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:314 filename:/proc/13755/task/13768/net/rpc/nfs4.idtoname/channel flags:2 fopened:1 fcntl_flags:40c00
+[main]  file fd:315 filename:/proc/4245/net/rpc/auth.unix.gid flags:0 fopened:1 fcntl_flags:40800
+[main]  file fd:316 filename:/proc/10053/task/27456/net/arp flags:0 fopened:1 fcntl_flags:4400
+[main]  file fd:317 filename:/proc/3791/task/23371/loginuid flags:2 fopened:1 fcntl_flags:0
+[main]  file fd:318 filename:/proc/6965/task/6968/fdinfo/67 flags:0 fopened:1 fcntl_flags:42c00
+[main]  file fd:319 filename:/proc/4244/task/4244/attr/selinux/sockcreate flags:2 fopened:1 fcntl_flags:44c00
+[main]  file fd:320 filename:/proc/27155/task/27165/net/ip6_flowlabel flags:0 fopened:1 fcntl_flags:6c00
+[main]  file fd:321 filename:/proc/7348/task/7357/fdinfo/123 flags:0 fopened:1 fcntl_flags:6000
+[main]  file fd:322 filename:/proc/17260/task/17262/fdinfo/12 flags:400 fopened:0 fcntl_flags:0
+[main]  file fd:323 filename:/proc/10313/task/10319/net/if_inet6 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:324 filename:/proc/3078/fdinfo/75 flags:0 fopened:1 fcntl_flags:42000
+[main]  file fd:325 filename:/proc/9985/task/10000/net/rpc/auth.unix.gid/flush flags:2 fopened:1 fcntl_flags:6c00
+[main]  file fd:326 filename:/proc/3951/projid_map flags:2 fopened:1 fcntl_flags:46800
+[main]  file fd:327 filename:/proc/13685/task/18308/net/stat/arp_cache flags:0 fopened:1 fcntl_flags:4000
+[main]  file fd:328 filename:/proc/9795/task/9820/net/igmp6 flags:101000 fopened:0 fcntl_flags:0
+[main]  file fd:329 filename:/proc/3782/net/rpc/auth.unix.ip/flush flags:2 fopened:1 fcntl_flags:2c00
+[main]  file fd:330 filename:/sys/kernel/slab/inode_cache/cgroup/inode_cache(2508:systemd-resolved.service)/slab_size flags:206d00 fopened:0 fcntl_flags:0
+[main]   start: 0x7f8976400000 size:4KB  name: /sys/kernel/slab/inode_cache/cgroup/inode_cache(2508:systemd-resolved.service)/slab_size
+[main]  file fd:331 filename:/sys/devices/pci0000:00/0000:00:17.0/ata3/host2/target2:0:0/2:0:0:0/block/sr0/queue/iosched/low_latency flags:2 fopened:1 fcntl_flags:6000
+[main]   start: (nil) size:4KB  name: /sys/devices/pci0000:00/0000:00:17.0/ata3/host2/target2:0:0/2:0:0:0/block/sr0/queue/iosched/low_latency
+[main]  file fd:332 filename:/sys/devices/virtual/block/loop19/discard_alignment flags:143900 fopened:0 fcntl_flags:0
+[main]   start: 0x414aa000 size:4KB  name: /sys/devices/virtual/block/loop19/discard_alignment
+[main]  file fd:333 filename:/sys/devices/virtual/block/loop22/queue/iostats flags:2 fopened:1 fcntl_flags:40c00
+[main]   start: 0x409d5000 size:4KB  name: /sys/devices/virtual/block/loop22/queue/iostats
+[main]  file fd:334 filename:/proc/23930/task/23940/fdinfo/47 flags:0 fopened:1 fcntl_flags:4c00
+[main]  file fd:335 filename:/proc/23930/task/23938/net/ip_tables_matches flags:265000 fopened:0 fcntl_flags:0
+[main]  file fd:336 filename:/proc/3947/task/3947/sched flags:2 fopened:1 fcntl_flags:2c00
+[main]  file fd:337 filename:/proc/17411/task/17413/net/raw6 flags:0 fopened:1 fcntl_flags:400
+[main]  file fd:338 filename:/proc/6086/task/6087/attr/apparmor/prev flags:0 fopened:1 fcntl_flags:46000
+[main]  file fd:339 filename:/proc/15955/task/15955/fdinfo/38 flags:0 fopened:1 fcntl_flags:40400
+[main]  file fd:340 filename:/proc/9707/task/9787/fdinfo/263 flags:0 fopened:1 fcntl_flags:2400
+[main]  file fd:341 filename:/proc/42/task/42/net/rpc/auth.unix.gid flags:40d80 fopened:0 fcntl_flags:0
+[main]  file fd:342 filename:/sys/kernel/slab/:A-0000192/cgroup/cred_jar(1376:anacron.service)/reserved flags:0 fopened:1 fcntl_flags:6000
+[main]   start: 0x7f89769da000 size:4KB  name: /sys/kernel/slab/:A-0000192/cgroup/cred_jar(1376:anacron.service)/reserved
+[main]  file fd:343 filename:/proc/26682/task/26690/loginuid flags:2 fopened:1 fcntl_flags:46c00
+[main]  file fd:344 filename:/proc/13755/task/13767/net/ip_tables_names flags:0 fopened:1 fcntl_flags:4c00
+[main]  file fd:345 filename:/proc/9874/task/9875/fdinfo/3 flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:346 filename:/proc/11654/task/11672/fdinfo/108 flags:480 fopened:0 fcntl_flags:0
+[main]  file fd:347 filename:/proc/26682/task/26684/net/rpc/nfsd.export/channel flags:2 fopened:1 fcntl_flags:6800
+[main]  file fd:348 filename:/proc/13685/task/18308/attr/exec flags:2 fopened:1 fcntl_flags:2000
+[main]  file fd:349 filename:/proc/9707/task/9723/net/ip6_mr_vif flags:0 fopened:1 fcntl_flags:40400
+[main]  file fd:350 filename:/proc/4255/task/4255/net/dev_mcast flags:0 fopened:1 fcntl_flags:44000
+[main]  file fd:351 filename:/proc/20193/task/20193/io flags:0 fopened:1 fcntl_flags:c00
+[main]  file fd:352 filename:/proc/1784/net/udplite flags:0 fopened:1 fcntl_flags:4800
+[main]  file fd:353 filename:/proc/24527/task/24539/fdinfo/33 flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:354 filename:/proc/23930/task/23940/net/ip6_mr_vif flags:0 fopened:1 fcntl_flags:40000
+[main]  file fd:355 filename:/proc/3922/task/3936/net/rpc/nfs4.nametoid/flush flags:2 fopened:1 fcntl_flags:2000
+[main]  file fd:356 filename:/proc/3971/task/3976/patch_state flags:0 fopened:1 fcntl_flags:400
+[main]  file fd:357 filename:/proc/3787/task/3787/net/rt6_stats flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:358 filename:/sys/kernel/slab/:aA-0000192/cgroup/dentry(830:proc-sys-fs-binfmt_misc.mount) flags:80100 fopened:0 fcntl_flags:0
+[main]  file fd:359 filename:/sys/devices/system/memory/memory191/power/runtime_active_kids flags:20000 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89768d9000 size:4KB  name: /sys/devices/system/memory/memory191/power/runtime_active_kids
+[main]  file fd:360 filename:/proc/6638/task/6638/attr flags:357180 fopened:0 fcntl_flags:0
+[main]  file fd:361 filename:/sys/kernel/slab/:0000192/cgroup/kmalloc-192(1519:ntp-systemd-netif.service)/objects_partial flags:80000 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:0000192/cgroup/kmalloc-192(1519:ntp-systemd-netif.service)/objects_partial
+[main]  file fd:362 filename:/sys/kernel/slab/:0000512/cgroup/kmalloc-512(1818:ssh.service)/reserved flags:0 fopened:1 fcntl_flags:6400
+[main]   start: 0x400a8000 size:4KB  name: /sys/kernel/slab/:0000512/cgroup/kmalloc-512(1818:ssh.service)/reserved
+[main]  file fd:363 filename:/sys/kernel/slab/:A-0002112/cgroup/mm_struct(2482:NetworkManager.service)/cpu_partial flags:2 fopened:1 fcntl_flags:0
+[main]   start: 0x7f89768d8000 size:4KB  name: /sys/kernel/slab/:A-0002112/cgroup/mm_struct(2482:NetworkManager.service)/cpu_partial
+[main]  file fd:364 filename:/sys/devices/platform/serial8250/tty/ttyS29/power/async flags:3e1f02 fopened:0 fcntl_flags:0
+[main]   start: 0x41d53000 size:4KB  name: /sys/devices/platform/serial8250/tty/ttyS29/power/async
+[main]  file fd:365 filename:/proc/245/task/245/net/rpc/nfs4.nametoid/content flags:0 fopened:1 fcntl_flags:2400
+[main]  file fd:366 filename:/sys/kernel/slab/:A-0005952/cgroup/task_struct(2174:snapd.seeded.service)/partial flags:0 fopened:1 fcntl_flags:6400
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:A-0005952/cgroup/task_struct(2174:snapd.seeded.service)/partial
+[main]  file fd:367 filename:/proc/3952/task/4179/loginuid flags:2 fopened:1 fcntl_flags:44800
+[main]  file fd:368 filename:/sys/module/snd_rawmidi/sections/.rodata flags:0 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89763ff000 size:4KB  name: /sys/module/snd_rawmidi/sections/.rodata
+[main]  file fd:369 filename:/sys/kernel/slab/:A-0000208/cgroup/vm_area_struct(544:snap-jq\x2dcprov-9.mount)/reserved flags:0 fopened:1 fcntl_flags:6000
+[main]   start: 0x7f89763fe000 size:4KB  name: /sys/kernel/slab/:A-0000208/cgroup/vm_area_struct(544:snap-jq\x2dcprov-9.mount)/reserved
+[main]  file fd:370 filename:/sys/devices/pci0000:00/0000:00:17.0/ata3/link3/dev3.0/ata_device/dev3.0/power/runtime_enabled flags:0 fopened:1 fcntl_flags:42000
+[main]   start: 0x7f89763fd000 size:4KB  name: /sys/devices/pci0000:00/0000:00:17.0/ata3/link3/dev3.0/ata_device/dev3.0/power/runtime_enabled
+[main]  file fd:371 filename:/sys/kernel/slab/:0000152/objects flags:0 fopened:1 fcntl_flags:46400
+[main]   start: 0x7f89762fc000 size:4KB  name: /sys/kernel/slab/:0000152/objects
+[main]  file fd:372 filename:/proc/27444/attr/selinux/prev flags:0 fopened:1 fcntl_flags:44000
+[main]  file fd:373 filename:/proc/10737/task/10738/net/ip_tables_names flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:374 filename:/proc/10053/task/10053/fdinfo/28 flags:100 fopened:0 fcntl_flags:0
+[main]  file fd:375 filename:/sys/kernel/slab/:A-0002112/cgroup/mm_struct(2655:phpsessionclean.service)/objects flags:0 fopened:1 fcntl_flags:42800
+[main]   start: 0x40a43000 size:4KB  name: /sys/kernel/slab/:A-0002112/cgroup/mm_struct(2655:phpsessionclean.service)/objects
+[main]  file fd:376 filename:/proc/22525/task/22525/net/unix flags:101780 fopened:0 fcntl_flags:0
+[main]  file fd:377 filename:/proc/27168/task/27180/cpuset flags:0 fopened:1 fcntl_flags:40000
+[main]  file fd:378 filename:/proc/11654/task/11660/fdinfo/292 flags:0 fopened:0 fcntl_flags:0
+[main]  file fd:379 filename:/proc/7386/task/7386/fdinfo/175 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:380 filename:/proc/26399/task/26399/net/fib_trie flags:260200 fopened:0 fcntl_flags:0
+[main]  file fd:381 filename:/proc/9752/task/17423/fdinfo/0 flags:2e2a00 fopened:0 fcntl_flags:0
+[main]  file fd:382 filename:/proc/17995/task/18003/fdinfo/142 flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:383 filename:/proc/252/net/rpc/nfsd.fh/content flags:0 fopened:1 fcntl_flags:2800
+[main]  file fd:384 filename:/proc/9736/task/9780/fdinfo/60 flags:0 fopened:1 fcntl_flags:44c00
+[main]  file fd:385 filename:/proc/26682/task/26690/net/rt_cache flags:0 fopened:1 fcntl_flags:2c00
+[main]  file fd:386 filename:/proc/589/net/anycast6 flags:0 fopened:1 fcntl_flags:42400
+[main]  file fd:387 filename:/proc/1637/task/1637/net/snmp flags:0 fopened:1 fcntl_flags:c00
+[main]  file fd:388 filename:/proc/3959/task/3959/net/rpc/nfs4.nametoid/channel flags:2 fopened:1 fcntl_flags:2400
+[main]  file fd:389 filename:/proc/1655/net/rpc/nfs4.nametoid/channel flags:2 fopened:1 fcntl_flags:800
+[main]  file fd:390 filename:/proc/11654/task/11695/net/packet flags:0 fopened:1 fcntl_flags:4400
+[main]  file fd:391 filename:/proc/24510/task/24510/attr/apparmor/prev flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:392 filename:/proc/9707/task/9718/fdinfo/30 flags:200600 fopened:0 fcntl_flags:0
+[main]  file fd:393 filename:/sys/kernel/slab/:A-0000192/cgroup/cred_jar(1844:openafs-client.service)/order flags:2 fopened:1 fcntl_flags:42400
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:A-0000192/cgroup/cred_jar(1844:openafs-client.service)/order
+[main]  file fd:394 filename:/proc/11654/task/11667/fdinfo/163 flags:0 fopened:1 fcntl_flags:40400
+[main]  file fd:395 filename:/proc/255/net/stat/arp_cache flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:396 filename:/proc/2455/task/2455/net/rpc/auth.unix.ip/channel flags:2 fopened:1 fcntl_flags:46800
+[main]  file fd:397 filename:/proc/3656/task/3656/attr/apparmor/prev flags:0 fopened:1 fcntl_flags:800
+[main]  file fd:398 filename:/proc/11654/task/11669/fdinfo/559 flags:0 fopened:1 fcntl_flags:44000
+[main]  file fd:399 filename:/proc/3961/task/4167/net/rpc/nfsd.fh/channel flags:3a5c02 fopened:0 fcntl_flags:0
+[main]  file fd:400 filename:/proc/13709/task/13714/oom_score flags:0 fopened:1 fcntl_flags:6400
+[main]  file fd:401 filename:/proc/26475/task/26475/net/rt_acct flags:1000 fopened:0 fcntl_flags:0
+[main]  file fd:402 filename:/proc/19181/task/19212/net/rpc/nfsd.export flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:403 filename:/proc/9707/task/9741/fdinfo/115 flags:40000 fopened:0 fcntl_flags:0
+[main]  file fd:404 filename:/proc/2051/task/2087/smaps flags:0 fopened:1 fcntl_flags:c00
+[main]  file fd:405 filename:/proc/5609/task/5932/loginuid flags:2 fopened:1 fcntl_flags:2400
+[main]  file fd:406 filename:/proc/5964/task/5970/net/rpc/nfs4.idtoname/flush flags:2 fopened:1 fcntl_flags:6800
+[main]  file fd:407 filename:/proc/26517/task/26630/attr/apparmor/exec flags:2 fopened:1 fcntl_flags:800
+[main]  file fd:408 filename:/proc/13489/task/13499/fdinfo/28 flags:0 fopened:1 fcntl_flags:2c00
+[main]  file fd:409 filename:/proc/3974/task/3981/cgroup flags:0 fopened:1 fcntl_flags:4400
+[main]  file fd:410 filename:/proc/26475/task/26590/attr/apparmor/exec flags:2 fopened:1 fcntl_flags:40000
+[main]  file fd:411 filename:/proc/17995/task/18005/fdinfo/211 flags:0 fopened:1 fcntl_flags:44c00
+[main]  file fd:412 filename:/proc/2455/task/2455/children flags:200000 fopened:0 fcntl_flags:0
+[main]  file fd:413 filename:/proc/3974/task/3974/fdinfo/5 flags:0 fopened:1 fcntl_flags:2800
+[main]  file fd:414 filename:/sys/kernel/slab/anon_vma/cgroup/anon_vma(1701:trezord.service)/cpu_partial flags:2 fopened:1 fcntl_flags:0
+[main]   start: 0x41727000 size:4KB  name: /sys/kernel/slab/anon_vma/cgroup/anon_vma(1701:trezord.service)/cpu_partial
+[main]  file fd:415 filename:/proc/3782/task/4506/fdinfo/7 flags:400 fopened:0 fcntl_flags:0
+[main]  file fd:416 filename:/proc/3926/task/3940/net/ip_tables_matches flags:0 fopened:1 fcntl_flags:46000
+[main]  file fd:417 filename:/proc/10074/task/25342/net/dev_mcast flags:0 fopened:1 fcntl_flags:6c00
+[main]  file fd:418 filename:/proc/1653/net/rpc/auth.unix.ip/flush flags:2 fopened:1 fcntl_flags:40800
+[main]  file fd:419 filename:/sys/kernel/slab/:A-0000256/cgroup/filp(713:console-setup.service)/objs_per_slab flags:0 fopened:1 fcntl_flags:40000
+[main]   start: 0x7f89761fb000 size:4KB  name: /sys/kernel/slab/:A-0000256/cgroup/filp(713:console-setup.service)/objs_per_slab
+[main]  file fd:420 filename:/sys/firmware/efi/vars/OsIndications-8be4df61-93ca-11d2-aa0d-00e098032b8c flags:0 fopened:1 fcntl_flags:2000
+[main]  file fd:421 filename:/proc/5061/task/5073/net/rpc/nfs4.nametoid flags:235a80 fopened:0 fcntl_flags:0
+[main]  file fd:422 filename:/proc/13685/task/25563/attr/selinux/exec flags:244802 fopened:0 fcntl_flags:0
+[main]  file fd:423 filename:/sys/kernel/slab/:A-0000704/cgroup/files_cache(1688:nfs-mountd.service)/shrink flags:2 fopened:1 fcntl_flags:800
+[main]   start: (nil) size:4KB  name: /sys/kernel/slab/:A-0000704/cgroup/files_cache(1688:nfs-mountd.service)/shrink
+[main]  file fd:424 filename:/proc/6100/task/6102/personality flags:0 fopened:1 fcntl_flags:0
+[main]  file fd:425 filename:/proc/506/task/506/net/rpc/nfs4.nametoid/flush flags:2 fopened:1 fcntl_flags:40400
+[main]  inotify fd:426 flags:0
+[main]  inotify fd:427 flags:0
+[main]  inotify fd:428 flags:800
+[main]  inotify fd:429 flags:80000
+[main]  inotify fd:430 flags:80800
+[main]  memfd fd:431 name:memfd1 flags:0
+[main]  memfd fd:432 name:memfd2 flags:1
+[main]  memfd fd:433 name:memfd3 flags:3
+[main]  memfd fd:434 name:memfd4 flags:2
+[main]  perf fd: 435 pid:0 cpu:-1 group_fd:-1 flags:1
+[main]   perf_event_attr: 04  00  00  00  48  00  00  00  00  02  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  0c  00  00  00  00  00  00  00  03  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 436 pid:27465 cpu:-1 group_fd:-1 flags:3
+[main]   perf_event_attr: 00  00  00  00  70  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  02  00  00  00  00  00  00  00  06  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 437 pid:0 cpu:-1 group_fd:-1 flags:9
+[main]   perf_event_attr: 04  00  00  00  40  00  00  00  f9  ff  ff  ff  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  0e  00  00  00  00  00  00  00  05  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 438 pid:0 cpu:-1 group_fd:-1 flags:a
+[main]   perf_event_attr: 04  00  00  00  70  00  00  00  03  2c  96  54  e9  1d  38  06  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  02  00  00  00  00  00  00  00  05  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 439 pid:0 cpu:-1 group_fd:437 flags:8
+[main]   perf_event_attr: 01  00  00  00  70  00  00  00  09  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  0a  00  00  00  00  00  00  00  40  0c  5a  08  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 440 pid:0 cpu:-1 group_fd:-1 flags:1
+[main]   perf_event_attr: 04  00  00  00  70  00  00  00  9f  9f  9f  9f  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  05  00  00  00  00  00  00  00  02  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 441 pid:0 cpu:-1 group_fd:437 flags:9
+[main]   perf_event_attr: 01  00  00  00  60  00  00  00  01  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  07  00  00  00  00  00  00  00  a0  8b  1b  08  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 442 pid:27465 cpu:-1 group_fd:440 flags:1
+[main]   perf_event_attr: 03  00  00  00  50  00  00  00  01  00  01  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  0e  00  00  00  00  00  00  00  02  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 443 pid:27465 cpu:-1 group_fd:437 flags:8
+[main]   perf_event_attr: 01  00  00  00  68  00  00  00  08  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  06  00  00  00  00  00  00  00  01  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  perf fd: 444 pid:0 cpu:-1 group_fd:-1 flags:8
+[main]   perf_event_attr: 00  00  00  00  60  00  00  00  06  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  04  00  00  00  00  00  00  00  07  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  00  
+[main]  pipe fd:445 flags:0 [reader]
+[main]  pipe fd:446 flags:0 [writer]
+[main]  pipe fd:447 flags:800 [reader]
+[main]  pipe fd:448 flags:800 [writer]
+[main]  pipe fd:449 flags:80000 [reader]
+[main]  pipe fd:450 flags:80000 [writer]
+[main]  pipe fd:451 flags:80800 [reader]
+[main]  pipe fd:452 flags:80800 [writer]
+[main]  Couldn't find socket cachefile. Regenerating.
+[main]  socket fd:454 domain:1 (LOCAL) type:0x2 protocol:0
+[main]  setsockopt(1 23 0 4) on fd 454 [1:2:0]
+[main]  socket fd:455 domain:1 (LOCAL) type:0x5 protocol:0
+[main]  setsockopt(1 d 563feda827a0 8) on fd 455 [1:5:0]
+[main]  socket fd:456 domain:1 (LOCAL) type:0x1 protocol:0
+[main]  setsockopt(1 2d 0 4) on fd 456 [1:1:0]
+[main]  socket fd:457 domain:2 (INET) type:0x2 protocol:0
+[main]  setsockopt(0 a 0 4) on fd 457 [2:2:0]
+[main]  Couldn't open socket 2:5:0. Socket type not supported
+[main]  socket fd:458 domain:2 (INET) type:0x1 protocol:0
+[main]  setsockopt(0 22 563feda82820 1) on fd 458 [2:1:0]
+[main]  socket fd:459 domain:2 (INET) type:0x1 protocol:6
+[main]  setsockopt(6 1 563feda82820 4) on fd 459 [2:1:6]
+[main]  socket fd:460 domain:2 (INET) type:0x2 protocol:17
+[main]  setsockopt(1 f 0 28) on fd 460 [2:2:17]
+[main]  socket fd:461 domain:2 (INET) type:0x6 protocol:33
+[main]  setsockopt(0 15 563feda82820 4) on fd 461 [2:6:33]
+[main]  socket fd:462 domain:2 (INET) type:0x5 protocol:132
+[main]  setsockopt(0 20 0 8) on fd 462 [2:5:132]
+[main]  socket fd:463 domain:2 (INET) type:0x1 protocol:132
+[main]  setsockopt(0 a 0 4) on fd 463 [2:1:132]
+[main]  socket fd:464 domain:2 (INET) type:0x2 protocol:136
+[main]  setsockopt(0 1 0 4) on fd 464 [2:2:136]
+[main]  socket fd:465 domain:2 (INET) type:0x10 protocol:1
+[main]  setsockopt(1 8 0 28) on fd 465 [2:10:1]
+[main]  socket fd:466 domain:2 (INET) type:0x10 protocol:2
+[main]  setsockopt(1 e 0 28) on fd 466 [2:10:2]
+[main]  socket fd:467 domain:2 (INET) type:0x10 protocol:4
+[main]  setsockopt(1 a 0 4) on fd 467 [2:10:4]
+[main]  socket fd:468 domain:2 (INET) type:0x10 protocol:6
+[main]  setsockopt(1 20 0 4) on fd 468 [2:10:6]
+[main]  socket fd:469 domain:2 (INET) type:0x10 protocol:8
+[main]  setsockopt(1 7 0 28) on fd 469 [2:10:8]
+[main]  socket fd:470 domain:2 (INET) type:0x10 protocol:12
+[main]  setsockopt(1 2d 0 3c) on fd 470 [2:10:12]
+[main]  socket fd:471 domain:2 (INET) type:0x10 protocol:17
+[main]  setsockopt(1 15 0 10) on fd 471 [2:10:17]
+[main]  socket fd:472 domain:2 (INET) type:0x10 protocol:22
+[main]  setsockopt(1 10 0 28) on fd 472 [2:10:22]
+[main]  socket fd:473 domain:2 (INET) type:0x10 protocol:29
+[main]  setsockopt(1 23 0 4) on fd 473 [2:10:29]
+[main]  socket fd:474 domain:2 (INET) type:0x10 protocol:33
+[main]  setsockopt(1 8 0 4) on fd 474 [2:10:33]
+[main]  socket fd:475 domain:2 (INET) type:0x10 protocol:41
+[main]  setsockopt(1 f 0 4) on fd 475 [2:10:41]
+[main]  socket fd:476 domain:2 (INET) type:0x10 protocol:46
+[main]  setsockopt(1 6 0 4) on fd 476 [2:10:46]
+[main]  socket fd:477 domain:2 (INET) type:0x10 protocol:47
+[main]  setsockopt(1 2f 0 4) on fd 477 [2:10:47]
+[main]  socket fd:478 domain:2 (INET) type:0x10 protocol:50
+[main]  setsockopt(1 a 0 28) on fd 478 [2:10:50]
+[main]  socket fd:479 domain:2 (INET) type:0x10 protocol:51
+[main]  setsockopt(1 23 0 108) on fd 479 [2:10:51]
+[main]  socket fd:480 domain:2 (INET) type:0x10 protocol:92
+[main]  setsockopt(1 8 0 28) on fd 480 [2:10:92]
+[main]  socket fd:481 domain:2 (INET) type:0x10 protocol:94
+[main]  setsockopt(1 15 0 10) on fd 481 [2:10:94]
+[main]  socket fd:482 domain:2 (INET) type:0x10 protocol:98
+[main]  setsockopt(1 21 0 28) on fd 482 [2:10:98]
+[main]  socket fd:483 domain:2 (INET) type:0x10 protocol:103
+[main]  setsockopt(1 19 0 0) on fd 483 [2:10:103]
+[main]  socket fd:484 domain:2 (INET) type:0x10 protocol:108
+[main]  setsockopt(1 9 0 4) on fd 484 [2:10:108]
+[main]  socket fd:485 domain:2 (INET) type:0x10 protocol:132
+[main]  setsockopt(1 24 0 3c) on fd 485 [2:10:132]
+[main]  socket fd:486 domain:2 (INET) type:0x10 protocol:136
+[main]  setsockopt(1 1 0 4) on fd 486 [2:10:136]
+[main]  socket fd:487 domain:2 (INET) type:0x10 protocol:137
+[main]  setsockopt(1 a 0 28) on fd 487 [2:10:137]
+[main]  Couldn't open socket 2:3:0. Protocol not supported
+[main]  socket fd:488 domain:2 (INET) type:0x3 protocol:1
+[main]  setsockopt(0 22 563feda82820 4) on fd 488 [2:3:1]
+[main]  socket fd:489 domain:2 (INET) type:0x3 protocol:2
+[main]  setsockopt(0 20 563feda82820 8) on fd 489 [2:3:2]
+[main]  socket fd:490 domain:2 (INET) type:0x3 protocol:3
+[main]  setsockopt(0 31 563feda82820 4) on fd 490 [2:3:3]
+[main]  socket fd:491 domain:2 (INET) type:0x3 protocol:4
+[main]  setsockopt(0 3 563feda82820 4) on fd 491 [2:3:4]
+[main]  socket fd:492 domain:2 (INET) type:0x3 protocol:5
+[main]  setsockopt(0 7 0 1) on fd 492 [2:3:5]
+[main]  socket fd:493 domain:2 (INET) type:0x3 protocol:6
+[main]  setsockopt(1 b 0 4) on fd 493 [2:3:6]
+[main]  socket fd:494 domain:2 (INET) type:0x3 protocol:7
+[main]  setsockopt(0 14 563feda82820 4) on fd 494 [2:3:7]
+[main]  socket fd:495 domain:2 (INET) type:0x3 protocol:8
+[main]  setsockopt(0 d 563feda82820 1) on fd 495 [2:3:8]
+[main]  socket fd:496 domain:2 (INET) type:0x3 protocol:9
+[main]  setsockopt(0 13 563feda82820 1) on fd 496 [2:3:9]
+[main]  Couldn't open socket 3:2:0. Address family not supported by protocol
+[main]  Couldn't open socket 3:3:0. Address family not supported by protocol
+[main]  Couldn't open socket 3:5:0. Address family not supported by protocol
+[main]  Couldn't open socket 3:5:1. Address family not supported by protocol
+[main]  Couldn't open socket 3:5:207. Address family not supported by protocol
+[main]  socket fd:497 domain:4 (IPX) type:0x2 protocol:0
+[main]  setsockopt(100 1 563feda82820 4) on fd 497 [4:2:0]
+[main]  socket fd:498 domain:5 (APPLETALK) type:0x2 protocol:0
+[main]  setsockopt(1 29 0 4) on fd 498 [5:2:0]
+[main]  socket fd:499 domain:5 (APPLETALK) type:0x3 protocol:0
+[main]  setsockopt(1 2 0 4) on fd 499 [5:3:0]
+[main]  Couldn't open socket 6:5:0. Address family not supported by protocol
+[main]  socket fd:500 domain:8 (ATMPVC) type:0x2 protocol:0
+[main]  setsockopt(1 14 0 10) on fd 500 [8:2:0]
+[main]  Couldn't open socket 9:5:0. Address family not supported by protocol
+[main]  socket fd:501 domain:10 (INET6) type:0x2 protocol:0
+[main]  setsockopt(29 42 563feda82820 4) on fd 501 [10:2:0]
+[main]  socket fd:502 domain:10 (INET6) type:0x5 protocol:0
+[main]  setsockopt(1 10 0 28) on fd 502 [10:5:0]
+[main]  socket fd:503 domain:10 (INET6) type:0x1 protocol:0
+[main]  setsockopt(29 18 0 4) on fd 503 [10:1:0]
+[main]  socket fd:504 domain:10 (INET6) type:0x1 protocol:6
+[main]  setsockopt(29 4a 563feda82820 4) on fd 504 [10:1:6]
+[main]  socket fd:505 domain:10 (INET6) type:0x2 protocol:17
+[main]  setsockopt(29 19 563feda82820 4) on fd 505 [10:2:17]
+[main]  socket fd:506 domain:10 (INET6) type:0x6 protocol:33
+[main]  setsockopt(29 6 0 0) on fd 506 [10:6:33]
+[main]  socket fd:507 domain:10 (INET6) type:0x5 protocol:132
+[main]  setsockopt(29 3e 0 1) on fd 507 [10:5:132]
+[main]  socket fd:508 domain:10 (INET6) type:0x2 protocol:136
+[main]  setsockopt(29 8 563feda82820 4) on fd 508 [10:2:136]
+[main]  Couldn't open socket 10:3:0. Protocol not supported
+[main]  socket fd:509 domain:10 (INET6) type:0x3 protocol:1
+[main]  setsockopt(29 3e 0 4) on fd 509 [10:3:1]
+[main]  socket fd:510 domain:10 (INET6) type:0x3 protocol:2
+[main]  setsockopt(29 46 563feda82820 4) on fd 510 [10:3:2]
+[main]  socket fd:511 domain:10 (INET6) type:0x3 protocol:3
+[main]  setsockopt(29 21 0 4) on fd 511 [10:3:3]
+[main]  socket fd:512 domain:10 (INET6) type:0x3 protocol:4
+[main]  setsockopt(1 5 0 28) on fd 512 [10:3:4]
+[main]  socket fd:513 domain:10 (INET6) type:0x3 protocol:5
+[main]  setsockopt(29 3e 0 1) on fd 513 [10:3:5]
+[main]  socket fd:514 domain:10 (INET6) type:0x3 protocol:6
+[main]  setsockopt(1 2e 0 28) on fd 514 [10:3:6]
+[main]  socket fd:515 domain:10 (INET6) type:0x3 protocol:7
+[main]  setsockopt(1 2e 0 28) on fd 515 [10:3:7]
+[main]  socket fd:516 domain:10 (INET6) type:0x3 protocol:8
+[main]  setsockopt(29 48 0 4) on fd 516 [10:3:8]
+[main]  socket fd:517 domain:10 (INET6) type:0x3 protocol:9
+[main]  setsockopt(29 46 563feda82820 1) on fd 517 [10:3:9]
+[main]  Couldn't open socket 12:5:2. Address family not supported by protocol
+[main]  Couldn't open socket 12:1:2. Address family not supported by protocol
+[main]  socket fd:518 domain:26 (LLC) type:0x2 protocol:0
+[main]  setsockopt(10c 4 0 4) on fd 518 [26:2:0]
+[main]  socket fd:519 domain:26 (LLC) type:0x1 protocol:0
+[main]  setsockopt(10c 1 0 4) on fd 519 [26:1:0]
+[main]  socket fd:520 domain:16 (NETLINK) type:0x2 protocol:0
+[main]  setsockopt(10e 4 0 4) on fd 520 [16:2:0]
+[main]  socket fd:521 domain:16 (NETLINK) type:0x2 protocol:2
+[main]  setsockopt(10e 4 563feda82820 4) on fd 521 [16:2:2]
+[main]  socket fd:522 domain:16 (NETLINK) type:0x2 protocol:4
+[main]  setsockopt(10e 3 563feda82820 4) on fd 522 [16:2:4]
+[main]  Couldn't open socket 16:2:5. Protocol not supported
+[main]  socket fd:523 domain:16 (NETLINK) type:0x2 protocol:6
+[main]  setsockopt(10e 4 0 1) on fd 523 [16:2:6]
+[main]  socket fd:524 domain:16 (NETLINK) type:0x2 protocol:7
+[main]  setsockopt(10e a 563feda82820 1) on fd 524 [16:2:7]
+[main]  socket fd:525 domain:16 (NETLINK) type:0x2 protocol:8
+[main]  setsockopt(10e a 563feda82820 4) on fd 525 [16:2:8]
+[main]  socket fd:526 domain:16 (NETLINK) type:0x2 protocol:9
+[main]  setsockopt(10e 5 0 4) on fd 526 [16:2:9]
+[main]  socket fd:527 domain:16 (NETLINK) type:0x2 protocol:10
+[main]  setsockopt(10e 4 563feda82820 1) on fd 527 [16:2:10]
+[main]  socket fd:528 domain:16 (NETLINK) type:0x2 protocol:11
+[main]  setsockopt(10e a 563feda82820 1) on fd 528 [16:2:11]
+[main]  socket fd:529 domain:16 (NETLINK) type:0x2 protocol:12
+[main]  setsockopt(10e 3 0 4) on fd 529 [16:2:12]
+[main]  Couldn't open socket 16:2:13. Protocol not supported
+[main]  socket fd:530 domain:16 (NETLINK) type:0x2 protocol:14
+[main]  setsockopt(10e 4 563feda82820 1) on fd 530 [16:2:14]
+[main]  socket fd:531 domain:16 (NETLINK) type:0x2 protocol:15
+[main]  setsockopt(10e 8 563feda82820 4) on fd 531 [16:2:15]
+[main]  socket fd:532 domain:16 (NETLINK) type:0x2 protocol:16
+[main]  setsockopt(10e 3 0 4) on fd 532 [16:2:16]
+[main]  socket fd:533 domain:16 (NETLINK) type:0x2 protocol:18
+[main]  setsockopt(10e a 563feda82820 1) on fd 533 [16:2:18]
+[main]  Couldn't open socket 16:2:19. Protocol not supported
+[main]  socket fd:534 domain:16 (NETLINK) type:0x2 protocol:20
+[main]  setsockopt(10e 8 0 4) on fd 534 [16:2:20]
+[main]  socket fd:535 domain:16 (NETLINK) type:0x2 protocol:21
+[main]  setsockopt(10e 4 563feda82820 1) on fd 535 [16:2:21]
+[main]  Couldn't open socket 16:2:22. Protocol not supported
+[main]  socket fd:536 domain:16 (NETLINK) type:0x3 protocol:0
+[main]  setsockopt(10e 8 0 4) on fd 536 [16:3:0]
+[main]  socket fd:537 domain:16 (NETLINK) type:0x3 protocol:2
+[main]  setsockopt(10e 4 0 4) on fd 537 [16:3:2]
+[main]  socket fd:538 domain:16 (NETLINK) type:0x3 protocol:4
+[main]  setsockopt(10e 5 563feda82820 4) on fd 538 [16:3:4]
+[main]  Couldn't open socket 16:3:5. Protocol not supported
+[main]  socket fd:539 domain:16 (NETLINK) type:0x3 protocol:6
+[main]  setsockopt(10e 8 0 1) on fd 539 [16:3:6]
+[main]  socket fd:540 domain:16 (NETLINK) type:0x3 protocol:7
+[main]  setsockopt(10e 8 0 4) on fd 540 [16:3:7]
+[main]  socket fd:541 domain:16 (NETLINK) type:0x3 protocol:8
+[main]  setsockopt(10e 5 0 1) on fd 541 [16:3:8]
+[main]  socket fd:542 domain:16 (NETLINK) type:0x3 protocol:9
+[main]  setsockopt(10e 8 0 4) on fd 542 [16:3:9]
+[main]  socket fd:543 domain:16 (NETLINK) type:0x3 protocol:10
+[main]  setsockopt(10e 8 563feda82820 1) on fd 543 [16:3:10]
+[main]  socket fd:544 domain:16 (NETLINK) type:0x3 protocol:11
+[main]  setsockopt(10e 8 563feda82820 4) on fd 544 [16:3:11]
+[main]  socket fd:545 domain:16 (NETLINK) type:0x3 protocol:12
+[main]  setsockopt(10e 3 0 4) on fd 545 [16:3:12]
+[main]  Couldn't open socket 16:3:13. Protocol not supported
+[main]  socket fd:546 domain:16 (NETLINK) type:0x3 protocol:14
+[main]  setsockopt(10e 4 563feda82820 4) on fd 546 [16:3:14]
+[main]  socket fd:547 domain:16 (NETLINK) type:0x3 protocol:15
+[main]  setsockopt(10e 8 0 4) on fd 547 [16:3:15]
+[main]  socket fd:548 domain:16 (NETLINK) type:0x3 protocol:16
+[main]  setsockopt(10e 4 0 1) on fd 548 [16:3:16]
+[main]  socket fd:549 domain:16 (NETLINK) type:0x3 protocol:18
+[main]  setsockopt(10e 3 0 4) on fd 549 [16:3:18]
+[main]  Couldn't open socket 16:3:19. Protocol not supported
+[main]  socket fd:550 domain:16 (NETLINK) type:0x3 protocol:20
+[main]  setsockopt(10e 8 0 4) on fd 550 [16:3:20]
+[main]  socket fd:551 domain:16 (NETLINK) type:0x3 protocol:21
+[main]  setsockopt(10e 3 0 4) on fd 551 [16:3:21]
+[main]  Couldn't open socket 16:3:22. Protocol not supported
+[main]  socket fd:552 domain:17 (PACKET) type:0x10 protocol:768
+[main]  setsockopt(1 21 0 4) on fd 552 [17:10:768]
+[main]  socket fd:553 domain:17 (PACKET) type:0x3 protocol:768
+[main]  setsockopt(107 9 0 4) on fd 553 [17:3:768]
+[main]  Couldn't open socket 19:5:0. Address family not supported by protocol
+[main]  socket fd:554 domain:20 (ATMSVC) type:0x2 protocol:0
+[main]  setsockopt(108 42000004 0 4) on fd 554 [20:2:0]
+[main]  Couldn't open socket 21:5:0. Address family not supported by protocol
+[main]  socket fd:555 domain:23 (IRDA) type:0x2 protocol:0
+[main]  setsockopt(10a a 563feda82820 4) on fd 555 [23:2:0]
+[main]  socket fd:556 domain:23 (IRDA) type:0x2 protocol:1
+[main]  setsockopt(10a a 563feda82820 4) on fd 556 [23:2:1]
+[main]  socket fd:557 domain:23 (IRDA) type:0x5 protocol:0
+[main]  setsockopt(1 2b 0 4) on fd 557 [23:5:0]
+[main]  socket fd:558 domain:23 (IRDA) type:0x1 protocol:0
+[main]  setsockopt(10a 4 0 4) on fd 558 [23:1:0]
+[main]  socket fd:559 domain:24 (PPPOX) type:0x2 protocol:0
+[main]  setsockopt(1 8 0 4) on fd 559 [24:2:0]
+[main]  socket fd:560 domain:24 (PPPOX) type:0x3 protocol:0
+[main]  setsockopt(1 24 0 4) on fd 560 [24:3:0]
+[main]  socket fd:561 domain:24 (PPPOX) type:0x5 protocol:0
+[main]  setsockopt(1 8 0 4) on fd 561 [24:5:0]
+[main]  socket fd:562 domain:24 (PPPOX) type:0x1 protocol:0
+[main]  setsockopt(1 2d 0 4) on fd 562 [24:1:0]
+[main]  socket fd:563 domain:24 (PPPOX) type:0x2 protocol:1
+[main]  setsockopt(1 23 0 4) on fd 563 [24:2:1]
+[main]  socket fd:564 domain:24 (PPPOX) type:0x3 protocol:1
+[main]  setsockopt(1 29 0 4) on fd 564 [24:3:1]
+[main]  socket fd:565 domain:24 (PPPOX) type:0x5 protocol:1
+[main]  setsockopt(1 2b 0 4) on fd 565 [24:5:1]
+[main]  socket fd:566 domain:24 (PPPOX) type:0x1 protocol:1
+[main]  setsockopt(1 2b 0 4) on fd 566 [24:1:1]
+[main]  socket fd:567 domain:24 (PPPOX) type:0x2 protocol:2
+[main]  setsockopt(1 20 0 4) on fd 567 [24:2:2]
+[main]  socket fd:568 domain:24 (PPPOX) type:0x3 protocol:2
+[main]  setsockopt(1 f 0 4) on fd 568 [24:3:2]
+[main]  socket fd:569 domain:24 (PPPOX) type:0x5 protocol:2
+[main]  setsockopt(1 f 0 4) on fd 569 [24:5:2]
+[main]  socket fd:570 domain:24 (PPPOX) type:0x1 protocol:2
+[main]  setsockopt(1 8 0 4) on fd 570 [24:1:2]
+[main]  socket fd:571 domain:24 (PPPOX) type:0x9 protocol:1
+[main]  setsockopt(1 1 0 4) on fd 571 [24:9:1]
+[main]  socket fd:572 domain:24 (PPPOX) type:0x9 protocol:2
+[main]  setsockopt(1 28 0 4) on fd 572 [24:9:2]
+[main]  socket fd:573 domain:26 (LLC) type:0x2 protocol:0
+[main]  setsockopt(10c 9 563feda82820 4) on fd 573 [26:2:0]
+[main]  socket fd:574 domain:26 (LLC) type:0x1 protocol:0
+[main]  setsockopt(10c 6 0 4) on fd 574 [26:1:0]
+[main]  socket fd:575 domain:29 (CAN) type:0x3 protocol:1
+[main]  setsockopt(1 9 0 4) on fd 575 [29:3:1]
+[main]  socket fd:576 domain:29 (CAN) type:0x2 protocol:2
+[main]  setsockopt(1 23 563feda82820 4) on fd 576 [29:2:2]
+[main]  Couldn't open socket 30:2:0. Address family not supported by protocol
+[main]  Couldn't open socket 30:5:0. Address family not supported by protocol
+[main]  Couldn't open socket 30:1:0. Address family not supported by protocol
+[main]  socket fd:577 domain:31 (BLUETOOTH) type:0x5 protocol:0
+[main]  socket fd:578 domain:31 (BLUETOOTH) type:0x5 protocol:2
+[main]  socket fd:579 domain:31 (BLUETOOTH) type:0x1 protocol:0
+[main]  socket fd:580 domain:31 (BLUETOOTH) type:0x1 protocol:3
+[main]  socket fd:581 domain:31 (BLUETOOTH) type:0x3 protocol:0
+[main]  socket fd:582 domain:31 (BLUETOOTH) type:0x3 protocol:1
+[main]  socket fd:583 domain:31 (BLUETOOTH) type:0x3 protocol:3
+[main]  socket fd:584 domain:31 (BLUETOOTH) type:0x3 protocol:4
+[main]  socket fd:585 domain:31 (BLUETOOTH) type:0x3 protocol:5
+[main]  socket fd:586 domain:31 (BLUETOOTH) type:0x3 protocol:6
+[main]  Couldn't open socket 31:3:7. Protocol not supported
+[main]  socket fd:587 domain:31 (BLUETOOTH) type:0x2 protocol:0
+[main]  socket fd:588 domain:33 (RXRPC) type:0x2 protocol:2
+[main]  setsockopt(110 8 0 4) on fd 588 [33:2:2]
+[main]  socket fd:589 domain:35 (PHONET) type:0x2 protocol:0
+[main]  setsockopt(1 7 0 4) on fd 589 [35:2:0]
+[main]  socket fd:590 domain:35 (PHONET) type:0x5 protocol:0
+[main]  setsockopt(113 1 563feda82820 4) on fd 590 [35:5:0]
+[main]  socket fd:591 domain:35 (PHONET) type:0x2 protocol:1
+[main]  setsockopt(1 15 0 10) on fd 591 [35:2:1]
+[main]  socket fd:592 domain:35 (PHONET) type:0x5 protocol:2
+[main]  setsockopt(1 19 0 1) on fd 592 [35:5:2]
+[main]  socket fd:593 domain:37 (CAIF) type:0x5 protocol:0
+[main]  setsockopt(116 7f 563feda82820 4) on fd 593 [37:5:0]
+[main]  socket fd:594 domain:37 (CAIF) type:0x5 protocol:1
+[main]  setsockopt(116 7f 0 4) on fd 594 [37:5:1]
+[main]  socket fd:595 domain:37 (CAIF) type:0x5 protocol:2
+[main]  setsockopt(116 7f 0 4) on fd 595 [37:5:2]
+[main]  socket fd:596 domain:37 (CAIF) type:0x5 protocol:3
+[main]  setsockopt(116 80 0 4) on fd 596 [37:5:3]
+[main]  socket fd:597 domain:37 (CAIF) type:0x5 protocol:4
+[main]  setsockopt(1 b 0 4) on fd 597 [37:5:4]
+[main]  socket fd:598 domain:37 (CAIF) type:0x5 protocol:5
+[main]  setsockopt(116 7f 563feda82820 4) on fd 598 [37:5:5]
+[main]  socket fd:599 domain:37 (CAIF) type:0x1 protocol:0
+[main]  setsockopt(116 7f 563feda82820 4) on fd 599 [37:1:0]
+[main]  socket fd:600 domain:37 (CAIF) type:0x1 protocol:1
+[main]  setsockopt(116 7f 0 4) on fd 600 [37:1:1]
+[main]  socket fd:601 domain:37 (CAIF) type:0x1 protocol:2
+[main]  setsockopt(116 7f 0 4) on fd 601 [37:1:2]
+[main]  socket fd:602 domain:37 (CAIF) type:0x1 protocol:3
+[main]  setsockopt(116 80 0 1) on fd 602 [37:1:3]
+[main]  socket fd:603 domain:37 (CAIF) type:0x1 protocol:4
+[main]  setsockopt(116 7f 563feda82820 4) on fd 603 [37:1:4]
+[main]  socket fd:604 domain:37 (CAIF) type:0x1 protocol:5
+[main]  setsockopt(116 7f 0 4) on fd 604 [37:1:5]
+[main]  socket fd:605 domain:38 (ALG) type:0x5 protocol:0
+[main]  setsockopt(1 29 0 4) on fd 605 [38:5:0]
+[main]  socket fd:606 domain:39 (NFC) type:0x5 protocol:0
+[main]  setsockopt(1 d 0 8) on fd 606 [39:5:0]
+[main]  socket fd:607 domain:39 (NFC) type:0x3 protocol:0
+[main]  setsockopt(1 12 0 4) on fd 607 [39:3:0]
+[main]  socket fd:608 domain:39 (NFC) type:0x2 protocol:1
+[main]  setsockopt(118 0 563feda82820 1) on fd 608 [39:2:1]
+[main]  socket fd:609 domain:39 (NFC) type:0x1 protocol:1
+[main]  setsockopt(118 0 563feda82820 4) on fd 609 [39:1:1]
+[main]  socket fd:610 domain:39 (NFC) type:0x3 protocol:1
+[main]  setsockopt(1 2 0 4) on fd 610 [39:3:1]
+[main]  Couldn't open socket 41:10:0. Socket type not supported
+[main]  socket fd:611 domain:41 (KCM) type:0x2 protocol:0
+[main]  setsockopt(119 1 0 4) on fd 611 [41:2:0]
+[main]  Couldn't open socket 42:2:0. Address family not supported by protocol
+[main]  Couldn't open socket 42:1:0. Address family not supported by protocol
+[main]  Couldn't open socket 42:1:6. Address family not supported by protocol
+[main]  created 158 sockets
+[main]  testfile fd:453 filename:trinity-testfile1 flags:101040 fopened:0 fcntl_flags:0
+[main]   start: 0x40886000 size:4KB  name: trinity-testfile1
+[main]  testfile fd:612 filename:trinity-testfile2 flags:5040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89760fa000 size:4KB  name: trinity-testfile2
+[main]  testfile fd:613 filename:trinity-testfile3 flags:2 fopened:1 fcntl_flags:42400
+[main]   start: 0x7f89760f9000 size:4KB  name: trinity-testfile3
+[main]  testfile fd:614 filename:trinity-testfile4 flags:2 fopened:1 fcntl_flags:40400
+[main]   start: 0x7f89760f8000 size:4KB  name: trinity-testfile4
+[main]  testfile fd:615 filename:trinity-testfile1 flags:2 fopened:1 fcntl_flags:400
+[main]   start: 0x7f89760f7000 size:4KB  name: trinity-testfile1
+[main]  testfile fd:616 filename:trinity-testfile2 flags:2 fopened:1 fcntl_flags:6800
+[main]   start: 0x7f89760f6000 size:4KB  name: trinity-testfile2
+[main]  testfile fd:617 filename:trinity-testfile3 flags:2 fopened:1 fcntl_flags:0
+[main]   start: 0x7f89760f5000 size:4KB  name: trinity-testfile3
+[main]  testfile fd:618 filename:trinity-testfile4 flags:105040 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: trinity-testfile4
+[main]  testfile fd:619 filename:trinity-testfile1 flags:40 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: trinity-testfile1
+[main]  testfile fd:620 filename:trinity-testfile2 flags:1040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89760f4000 size:4KB  name: trinity-testfile2
+[main]  testfile fd:621 filename:trinity-testfile3 flags:101040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89760f3000 size:4KB  name: trinity-testfile3
+[main]  testfile fd:622 filename:trinity-testfile4 flags:4040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89760f2000 size:4KB  name: trinity-testfile4
+[main]  testfile fd:623 filename:trinity-testfile1 flags:2 fopened:1 fcntl_flags:4800
+[main]   start: (nil) size:4KB  name: trinity-testfile1
+[main]  testfile fd:624 filename:trinity-testfile2 flags:2 fopened:1 fcntl_flags:6000
+[main]   start: 0x7f89760f1000 size:4KB  name: trinity-testfile2
+[main]  testfile fd:625 filename:trinity-testfile3 flags:40 fopened:0 fcntl_flags:0
+[main]   start: (nil) size:4KB  name: trinity-testfile3
+[main]  testfile fd:626 filename:trinity-testfile4 flags:1040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f89760f0000 size:4KB  name: trinity-testfile4
+[main]  testfile fd:627 filename:trinity-testfile1 flags:2 fopened:1 fcntl_flags:800
+[main]   start: 0x7f8975fef000 size:4KB  name: trinity-testfile1
+[main]  testfile fd:628 filename:trinity-testfile2 flags:105040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f8975fee000 size:4KB  name: trinity-testfile2
+[main]  testfile fd:629 filename:trinity-testfile3 flags:105040 fopened:0 fcntl_flags:0
+[main]   start: 0x7f8975fed000 size:4KB  name: trinity-testfile3
+[main]  testfile fd:630 filename:trinity-testfile4 flags:2 fopened:1 fcntl_flags:46400
+[main]   start: 0x40411000 size:4KB  name: trinity-testfile4
+[main]  timerfd fd:631 clockid:0 flags:0
+[main]  timerfd fd:632 clockid:0 flags:800
+[main]  timerfd fd:633 clockid:0 flags:80000
+[main]  timerfd fd:634 clockid:0 flags:80800
+[main]  timerfd fd:635 clockid:1 flags:0
+[main]  timerfd fd:636 clockid:1 flags:800
+[main]  timerfd fd:637 clockid:1 flags:80000
+[main]  timerfd fd:638 clockid:1 flags:80800
+[main]  userfault fd:639 flags:0
+[main]  userfault fd:640 flags:80000
+[main]  userfault fd:641 flags:800
+[main]  userfault fd:642 flags:80800
+[main]  Enabled 14/14 fd providers. initialized:14.
+[main]  Opened ftrace tracing_on as fd 643
+[main]  Ftrace log will be dumped to /boot/trace.txt
+[main]  Dumped trace to /boot/trace.txt

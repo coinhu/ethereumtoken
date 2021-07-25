@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "/root/bin/www"
+		},
+		{
+			"path": "/var/lib/docker/overlay2/184f0c31da0eaae173576eeb69079ca55273f5d6231c0e3ecb6cca53dbdfd388"
+		}
+	],
+    "settings": {
+        "codewindProfiling.showProfiling": true
+    }
+}

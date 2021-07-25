@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.web3j.tuples"},{"l":"org.web3j.tuples.generated"}]

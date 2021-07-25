@@ -1,0 +1,4 @@
+test/.ethereum
+
+workdir/
+!workdir/.gitkeep

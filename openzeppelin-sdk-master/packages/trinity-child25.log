@@ -1,0 +1,13 @@
+[child25:27629]   start: 0x7f89790b4000 size:4KB  name: anon(PROT_READ | PROT_WRITE)
+[child25:27629]   start: 0x7f89790b3000 size:4KB  name: anon(PROT_READ)
+[child25:27629]   start: 0x7f89790b2000 size:4KB  name: anon(PROT_WRITE)
+[child25:27629]   start: 0x7f8978fb2000 size:1MB  name: anon(PROT_READ | PROT_WRITE)
+[child25:27629]   start: 0x7f89774f5000 size:1MB  name: anon(PROT_READ)
+[child25:27629]   start: 0x7f89773f5000 size:1MB  name: anon(PROT_WRITE)
+[child25:27629]   start: 0x7f89771f5000 size:2MB  name: anon(PROT_READ | PROT_WRITE)
+[child25:27629]   start: 0x7f8976ff5000 size:2MB  name: anon(PROT_READ)
+[child25:27629]   start: 0x7f8976df5000 size:2MB  name: anon(PROT_WRITE)
+[child25:27629]   start: 0x7f8978fb1000 size:4KB  name: anon(PROT_READ | PROT_WRITE)
+[child25:27629]   start: 0x7f8978fb0000 size:4KB  name: anon(PROT_READ)
+[child25:27629]   start: 0x7f8978faf000 size:4KB  name: anon(PROT_WRITE)
+[child25:27629] [1] mq_timedsend(mqdes=161, u_msg_ptr=0x7f8978fb1000, msg_len=0xff6b, msg_prio=135, u_abs_timeout=0x0) [child25:27629]  Dumped trace to /boot/trace.txt
